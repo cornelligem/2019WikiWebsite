@@ -1,0 +1,141 @@
+/******************** HOME PAGE START ********************/
+
+.home-page-wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px auto 100px auto 100px 100px;
+    grid-template-areas: 'navbar' 'homedescription' '.' 'tiles' '.' 'footer';
+}
+
+nav {
+    grid-area: navbar;
+}
+
+.nav-bar-main-menu .dropdown:nth-child(5) .dropdown-contentx {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.nav-first-col {
+    grid-column-start: 1;
+    display: inline-grid;
+}
+
+.nav-second-col {
+    grid-column: 2;
+    display: inline-grid;
+    grid-area: navbar;
+}
+
+.home-description-wrapper {
+    display: grid;
+    grid-area: homedescription;
+    grid-template-columns: 150px auto 150px;
+    grid-template-areas: '. homedescriptionlogo .' '. homedescription .';
+}
+
+.home-description-logo-wrapper {
+    grid-area: homedescriptionlogo;
+}
+
+.home-description {
+    grid-area: homedescription;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.tiles-wrapper {
+    display: grid;
+    grid-area: tiles;
+    grid-template-columns: 150px repeat(3, 1fr) 150px;
+    grid-gap: 10px;
+}
+
+.wet-lab-tile {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.pd-tile {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.pp-tile {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.outreach-tile {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.bus-tile {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.team-tile {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+@media only screen and (max-width: 1100px) {
+    .tiles-wrapper {
+        display: grid;
+        grid-area: tiles;
+        grid-template-columns: 150px auto 150px;
+        grid-gap: 10px;
+    }
+    .wet-lab-tile {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .pd-tile {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .pp-tile {
+        grid-column: 2;
+        grid-row: 3;
+    }
+    .outreach-tile {
+        grid-column: 2;
+        grid-row: 4;
+    }
+    .bus-tile {
+        grid-column: 2;
+        grid-row: 5;
+    }
+    .team-tile {
+        grid-column: 2;
+        grid-row: 6;
+    }
+}
+
+
+/******************** HOME PAGE END ********************/
+
+
+/******************** STANDARD PAGE START ********************/
+
+.standard-page-wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px 550px auto 100px;
+    grid-template-areas: "navbar" "standardpagebanner" "standardpagecontent" "footer";
+}
+
+.standard-page-banner {
+    grid-area: standardpagebanner;
+}
+
+.standard-page-content-wrapper {
+    grid-area: standardpagecontent;
+}
+
+
+/******************** STANDARD PAGE END ********************/

@@ -25,7 +25,9 @@ p {
 nav {
     padding-top: 20px;
     padding-right: 100px;
-    background-image: url('/images/mintgreen.jpg');
+  /*  background-image: url('/images/mintgreen.jpg');*/
+    background-color: #A3C586;
+    height: 55px;
 }
 
 .nav-bar-logo {
@@ -36,7 +38,7 @@ nav {
 }
 
 .nav-bar-logo img {
-    width: 120px;
+    width: 100px;
 }
 
 .nav-bar-main-menu {
@@ -74,7 +76,7 @@ nav {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(201, 56, 67, 0.9);
+    background-color: #638291;
     color: #ffffff;
     width: 200px;
     font-size: 14px;
@@ -124,13 +126,13 @@ nav {
 
 .dropbtn:hover,
 .active-page {
-    color: #c93843;
+    color: #638291;
     transition-duration: 0.5s;
 }
 
 .dropdown-content a:hover {
-    color: #c93843;
-    background-color: #ddd;
+    color: #638291;
+    background-color: #ffffff;
 }
 
 .dropdown:hover .dropdown-content {
@@ -159,7 +161,7 @@ footer {
     padding: 35px;
     position: relative;
     text-align: center;
-    background-color: #00ff99;
+    background-color: #A3C586;
 }
 
 .footer-wrapper {

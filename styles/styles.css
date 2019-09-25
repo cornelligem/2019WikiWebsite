@@ -23,9 +23,10 @@ p {
 /******************** HOME PAGE START ********************/
 
 nav {
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     padding-right: 100px;
-  /*  background-image: url('/images/mintgreen.jpg');*/
+    /*  background-image: url('/images/mintgreen.jpg');*/
     background-color: #A3C586;
     height: 55px;
 }
@@ -85,7 +86,7 @@ nav {
 }
 
 .toolkit-dropdown-content {
-    width: 410px;
+    width: 610px;
     left: -160px;
 }
 
@@ -98,6 +99,7 @@ nav {
 }
 
 .outreach-dropdown-content {
+    width: 230px;
     left: -40px;
 }
 
@@ -114,13 +116,18 @@ nav {
 }
 
 .wet-lab-list-title,
-.doc-list-title {
+.doc-list-title,
+.pd-list-title {
     padding-top: 12px;
     padding-left: 16px;
     padding-bottom: 14px;
 }
 
 .nav-second-col {
+    margin-left: 30px;
+}
+
+.nav-third-col {
     margin-left: 30px;
 }
 
@@ -241,6 +248,54 @@ footer {
     font-family: Raleway;
     fill: black;
     font-size: 14px;
+}
+
+.standard-page-side-bar-content-wrapper {
+    padding: 5% 0;
+}
+
+.standard-page-side-bar>li>a {
+    text-decoration: none;
+    color: #638291;
+    font-weight: bold;
+}
+
+.standard-page-side-bar {
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.standard-page-side-bar>li {
+    margin-bottom: 15px;
+}
+
+.standard-page-content-title {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    position: relative;
+}
+
+.green-accent-line-left {
+    border: #A3C586 solid 1px;
+    display: block;
+    float: left;
+    margin: 1em auto 1em auto;
+    width: 80px;
+}
+
+.standard-page-content-subheading {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    font-weight: 1;
+    color: #000;
+    padding-top: 8%;
+    padding-bottom: 0;
 }
 
 

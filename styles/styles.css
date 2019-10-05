@@ -46,6 +46,11 @@ nav {
     font-family: 'Raleway', sans-serif;
 }
 
+.home-banner img {
+    height: 300px;
+    width: 100%;
+}
+
 .dropbtn {
     background-color: transparent;
     text-decoration: none;

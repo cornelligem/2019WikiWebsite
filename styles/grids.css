@@ -3,8 +3,13 @@
 .home-page-wrapper {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 100px auto 100px auto 100px 100px;
-    grid-template-areas: 'navbar' 'homedescription' '.' 'tiles' '.' 'footer';
+    grid-template-rows: 100px auto auto 100px auto 100px 100px;
+    grid-template-areas: 'navbar' 'banner' 'homedescription' '.' 'tiles' '.' 'footer';
+}
+
+.home-banner-wrapper {
+    display: grid;
+    grid-area: banner;
 }
 
 nav {

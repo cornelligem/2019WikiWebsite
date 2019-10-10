@@ -10,6 +10,9 @@
 .home-banner-wrapper {
     display: grid;
     grid-area: banner;
+    background: #c5e0a0;
+    height: 300px;
+    width: 100%;
 }
 
 nav {

@@ -46,9 +46,22 @@ nav {
     font-family: 'Raleway', sans-serif;
 }
 
-.home-banner img {
+.banner-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home-banner-logo {
+    height: 100px;
+    width: 250px;
+    padding-top: 190px;
+}
+
+.home-banner-plants {
     height: 300px;
-    width: 100%;
+    width: 600px;
 }
 
 .dropbtn {

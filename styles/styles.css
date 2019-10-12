@@ -1,325 +1,380 @@
-    @import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Raleway');
-    html,
-    body {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-    }
-    
-    body {
-        background-size: 40px 40px;
-    }
-    
-    p {
-        color: #000;
-        font-family: 'Open Sans', sans-serif;
-    }
-    /******************** HOME PAGE START ********************/
-    
-    nav {
-        padding-top: 30px;
-        padding-bottom: 30px;
-        padding-right: 100px;
-        background-color: #a0e0bd;
-        height: 38px;
-    }
-    
-    .nav-bar-logo {
-        vertical-align: top;
-        display: inline-block;
-        float: left;
-        margin-left: 80px;
-        margin-top: -5px;
-    }
-    
-    .nav-bar-logo img {
-        width: 140px;
-    }
-    
-    .nav-bar-main-menu {
-        font-family: 'Raleway', sans-serif;
-    }
-    
-    .banner-container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
-    .home-banner-logo {
-        height: 250px;
-        width: 500px;
-        padding-top: 170px;
-        margin-right: -400px;
-    }
-    
-    .home-banner-wrapper {
-        background: #a0e0bd;
-        height: 400px;
-        width: 100%;
-    }
-    
-    .home-banner-plants {
-        height: 400px;
-        width: 1200px;
-    }
-    
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Raleway');
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-size: 40px 40px;
+}
+
+p {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 100px;
+    background-color: #a0e0bd;
+    height: 38px;
+}
+
+.nav-bar-logo {
+    vertical-align: top;
+    display: inline-block;
+    float: left;
+    margin-left: 80px;
+    margin-top: -5px;
+}
+
+.nav-bar-logo img {
+    width: 140px;
+}
+
+.nav-bar-main-menu {
+    font-family: 'Raleway', sans-serif;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home-banner-logo {
+    height: 250px;
+    width: 35%;
+    padding-top: 170px;
+    margin-right: -400px;
+}
+
+.home-banner-wrapper {
+    background: #a0e0bd;
+    height: 400px;
+    width: 100%;
+}
+
+.home-banner-plants {
+    height: 400px;
+    width: 80%;
+}
+
+.dropbtn {
+    background-color: transparent;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0px;
+    font-size: 15px;
+    border: none;
+    color: #fff;
+}
+
+@media (max-width: 1050px) {
     .dropbtn {
-        background-color: transparent;
-        text-decoration: none;
-        padding: 15px;
-        margin: 0px;
-        font-size: 15px;
-        border: none;
-        color: #fff;
+        font-size: 12px;
     }
-    
-    @media (max-width: 1050px) {
-        .dropbtn {
-            font-size: 12px;
-        }
-    }
-    
-    .dropdown {
-        position: relative;
-        vertical-align: top;
-        display: inline-block;
-        float: right;
-    }
-    
-    .dropdown ul {
-        list-style-type: none;
-    }
-    
-    .dropdown a {
-        position: relative;
-        display: inline-block;
-        color: #e8b023;
-        text-decoration: none;
-    }
-    
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #016C64;
-        color: #ffffff;
-        width: 200px;
-        font-size: 14px;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-    }
-    
-    .toolkit-dropdown-content {
-        width: 720px;
-        left: -160px;
-    }
-    
-    .modeling-dropdown-content {
-        left: -40px;
-    }
-    
-    .human-dropdown-content {
-        left: 12px;
-    }
-    
-    .outreach-dropdown-content {
-        width: 230px;
-        left: -40px;
-    }
-    
-    .team-dropdown-content {
-        width: 140px;
-        left: -35px;
-    }
-    
-    .dropdown-content a {
-        color: #ffffff;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
-    
-    .wet-lab-list-title,
-    .doc-list-title,
-    .pd-list-title {
-        padding-top: 12px;
-        padding-left: 16px;
-        padding-bottom: 14px;
-    }
-    
-    .nav-second-col {
-        margin-left: 30px;
-    }
-    
-    .nav-third-col {
-        margin-left: 30px;
-    }
-    
-    .dropbtn:hover,
-    .active-page {
-        color: #016C64;
-        transition-duration: 0.5s;
-    }
-    
-    .dropdown-content a:hover {
-        color: #016C64;
-        background-color: #ffffff;
-    }
-    
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-    
-    .home-description-wrapper {
-        margin-top: 120px;
-    }
-    
-    .home-description-logo {
-        width: 40%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 80px;
-    }
-    
-    .home-description {
-        color: #000;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 16px;
-        margin-bottom: 80px;
-        text-align: center;
-    }
-    
-    footer {
-        padding: 35px;
-        position: relative;
-        text-align: center;
-        background-color: #a0e0bd;
-    }
-    
-    .footer-wrapper {
-        margin: auto;
-        display: inline-block;
-    }
-    
-    .icon-wrapper {
-        display: inline-block;
-        position: relative;
-        padding-right: 18px;
-        border-right: 0.5px solid white;
-    }
-    
-    .icon-wrapper-last {
-        border-right: none;
-    }
-    
-    .icon {
-        margin: 16px;
-    }
-    
-    .icon img {
-        height: 24px;
-    }
-    
-    .tiles-wrapper img {
-        width: 90%;
-        border-radius: 50%;
-        display: block;
-        margin: 15px auto 15px auto;
-    }
-    
-    .tile-wrapper {
-        position: relative;
-    }
-    
-    .tile-title {
-        font-family: 'Source Sans Pro', sans-serif;
-        font-weight: 700;
-        font-size: 30px;
-        color: rgb(30, 30, 30);
-        text-align: center;
-        margin-top: 45%;
-    }
-    
-    .pp-title {
-        margin-top: 40%;
-    }
-    
-    .overlay {
-        background-color: transparent;
-        z-index: 512;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-        -webkit-transition: all 0.4s ease-in-out;
-        transition: all 0.4s ease-in-out;
-    }
-    
-    .overlay:hover {
-        background-color: rgba(255, 255, 255, 0.7);
-    }
-    /******************** HOME PAGE END ********************/
-    /******************** STANDARD PAGE START ********************/
-    
-    .standard-page-banner {
-        background-image: url(http://2018.igem.org/wiki/images/d/d5/T--Cornell--TeamBannerPhoto.jpg);
-        background-size: cover;
-        font-family: Raleway;
-        fill: black;
-        font-size: 14px;
-    }
-    
-    .standard-page-side-bar-content-wrapper {
-        padding: 5% 0;
-    }
-    
-    .standard-page-side-bar>li>a {
-        text-decoration: none;
-        color: #016C64;
-        font-weight: bold;
-    }
-    
-    .standard-page-side-bar {
-        list-style-type: none;
-        font-family: 'Open Sans', sans-serif;
-        padding-left: 15px;
-        padding-right: 15px;
-        vertical-align: middle;
-        margin: 0;
-    }
-    
-    .standard-page-side-bar>li {
-        margin-bottom: 15px;
-    }
-    
-    .standard-page-content-title {
-        font-family: 'Merriweather', serif;
-        font-size: 24px;
-        font-weight: 700;
-        color: #000;
-        position: relative;
-    }
-    
-    .green-accent-line-left {
-        border: #a0e0bd solid 1px;
-        display: block;
-        float: left;
-        margin: 1em auto 1em auto;
-        width: 80px;
-    }
-    
-    .standard-page-content-subheading {
-        font-family: 'Merriweather', serif;
-        font-size: 18px;
-        font-weight: 1;
-        color: #000;
-        padding-top: 8%;
-        padding-bottom: 0;
-    }
-    /******************** STANDARD PAGE END ********************/
+}
+
+.dropdown {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    float: right;
+}
+
+.dropdown ul {
+    list-style-type: none;
+}
+
+.dropdown a {
+    position: relative;
+    display: inline-block;
+    color: #e8b023;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #016C64;
+    color: #ffffff;
+    width: 200px;
+    font-size: 14px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.toolkit-dropdown-content {
+    width: 720px;
+    left: -160px;
+}
+
+.modeling-dropdown-content {
+    left: -40px;
+}
+
+.human-dropdown-content {
+    left: 12px;
+}
+
+.outreach-dropdown-content {
+    width: 230px;
+    left: -40px;
+}
+
+.team-dropdown-content {
+    width: 140px;
+    left: -35px;
+}
+
+.dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.wet-lab-list-title,
+.doc-list-title,
+.pd-list-title {
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-bottom: 14px;
+}
+
+.nav-second-col {
+    margin-left: 30px;
+}
+
+.nav-third-col {
+    margin-left: 30px;
+}
+
+.dropbtn:hover,
+.active-page {
+    color: #016C64;
+    transition-duration: 0.5s;
+}
+
+.dropdown-content a:hover {
+    color: #016C64;
+    background-color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+footer {
+    padding: 35px;
+    position: relative;
+    text-align: center;
+    background-color: #a0e0bd;
+}
+
+.footer-wrapper {
+    margin: auto;
+    display: inline-block;
+}
+
+.icon-wrapper {
+    display: inline-block;
+    position: relative;
+    padding-right: 18px;
+    border-right: 0.5px solid white;
+}
+
+.icon-wrapper-last {
+    border-right: none;
+}
+
+.icon {
+    margin: 16px;
+}
+
+.icon img {
+    height: 24px;
+}
+
+
+/******************** SPECIFIC PAGES START ********************/
+
+.notebook-page-content-wrapper,
+.safety-page-content-wrapper,
+.about-page-content-wrapper,
+.attributions-page-content-wrapper {
+    padding-bottom: 5%;
+}
+
+.notebook-content-wrapper,
+.safety-content-wrapper,
+.about-content-wrapper,
+.attributions-page-content-wrapper {
+    padding-right: 100px;
+    padding-left: 90px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.notebook-header-text,
+.safety-header-text,
+.about-header-text {
+    font-family: 'Merriweather', serif;
+    font-size: 24pt;
+    text-align: center;
+    color: #000;
+}
+
+.notebook-text-wrapper,
+.safety-text-wrapper,
+.about-text-wrapper,
+.attributions-text-wrapper {
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.notebook-body-text,
+.safety-body-text,
+.about-body-text {
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+}
+
+
+/******************** SPECIFIC PAGES END ********************/
+
+
+/******************** HOME PAGE START ********************/
+
+.home-description-wrapper {
+    margin-top: 120px;
+}
+
+.home-description-logo {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.home-description {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.tiles-wrapper img {
+    width: 90%;
+    border-radius: 50%;
+    display: block;
+    margin: 15px auto 15px auto;
+}
+
+.tile-wrapper {
+    position: relative;
+}
+
+.tile-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(30, 30, 30);
+    text-align: center;
+    margin-top: 45%;
+}
+
+.pp-title {
+    margin-top: 40%;
+}
+
+.overlay {
+    background-color: transparent;
+    z-index: 512;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.overlay:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+/******************** HOME PAGE END ********************/
+
+
+/******************** STANDARD PAGE START ********************/
+
+.standard-page-banner {
+    background-image: url(https://2019.igem.org/wiki/images/6/63/T--Cornell--TeamPic.png);
+    background-size: cover;
+    font-family: Raleway;
+    fill: black;
+    font-size: 14px;
+}
+
+.standard-page-side-bar-content-wrapper {
+    padding: 5% 0;
+}
+
+.standard-page-side-bar>li>a {
+    text-decoration: none;
+    color: #016C64;
+    font-weight: bold;
+}
+
+.standard-page-side-bar {
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.standard-page-side-bar>li {
+    margin-bottom: 15px;
+}
+
+.standard-page-content-title {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    position: relative;
+}
+
+.green-accent-line-left {
+    border: #a0e0bd solid 1px;
+    display: block;
+    float: left;
+    margin: 1em auto 1em auto;
+    width: 80px;
+}
+
+.standard-page-content-subheading {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    font-weight: 1;
+    color: #000;
+    padding-top: 8%;
+    padding-bottom: 0;
+}
+
+
+/******************** STANDARD PAGE END ********************/

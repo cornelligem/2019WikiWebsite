@@ -1,442 +1,582 @@
-<!DOCTYPE html>
-<html class="no-js">
-
+<html>
 <head>
+    <style>
+        /* hides "Team:Cornell" and iGEM logo */
+        #top_title {
+            display: none;
+        }
+
+        /* removes padding below footer */
+        #globalWrapper {
+            padding: 0;
+        }
+
+        #content {
+            background: #0d1c38;
+            padding: 0px;
+            width: 100% !important;
+            margin-top: 0px;
+            margin-left: 0px ;
+        }
+
+        /* removes default styling for home banner tagline */
+        #HQ_page p {
+            font-family: 'Opens Sans', sans-serif;
+        }
+
+        /* removes small extra margin at very bottom below footer */
+        p {
+            margin: 0;
+        }
+
+        /* removes bullets from Toolkit dropdown menu */
+        ul {
+            list-style-image: none;
+        }
+
+    </style>
+    <title>Team:Cornell - 2019.igem.org</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Practices</title>
     <meta name="description" content="Practices">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--Stylesheets-->
+    <!--CSS-->
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="styles/pp.css">
-    <!-- JavaScript Files-->
+    <!-- JS-->
     <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
     <!--Timeline JS-->
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
 </head>
-<div class="container content-wrapper practices">
-    <div class="row">
-        <!------------------------PRACTICES CONTENT------------------------>
-        <!------------------------OVERVIEW------------------------>
-        <section class="no-padding-bottom">
-            <div>
-                <div class="content-title">OUR APPROACH</div>
-                <div class="text-justify">Before fully forming our idea, we strove to understand the complexity of algal
-                    blooms and their effects around Tompkins County. Speaking with local business owners, legislators, and
-                    field experts, <b>we realized that blooms affect a large subset of people in our community.</b> Using
-                    personal accounts and expertise, we were able to narrow down our project to two main parts that would
-                    effectively address algal blooms in the Finger Lakes: detection and remediation.
-                    <br><br> While we were excited to undertake this task, we first needed to determine the direction we
-                    wanted to take our idea. We spoke with <b>professional experts</b> and <b>community members</b> to pinpoint
-                    our approach to detection, incorporating their thoughts to create an innovative method to quantify microcystin
-                    toxicity. As we finalized our detection system, we started pursuing an effective remediation process.
-                    Using the feedback of <b>legislators</b> and <b>researchers</b>, we designed our degradation system to
-                    expand current legislative initiatives that address HABs. Throughout the entire process, our project
-                    integrated diverse perspectives to fabricate a comprehensive solution with people and the environment
-                    at its core. Here, we highlight the most impactful interviews that we conducted and how our conversations
-                    shaped the course of our project from napkin to prototype.
+
+<body>
+    <div class = "standard-page-wrapper">
+        <!------------------------ NAV BAR START ------------------------>
+        <nav>
+            <div class="nav-bar-wrapper">
+                <div class="nav-bar-logo">
+                        <a href="home"><img src="images/logo.png" alt="reHAB"></a>
                 </div>
-            </div>
-        </section>
-        <!------------------------END OVERVIEW------------------------>
-        <!------------------------DESCRIPTION------------------------>
-        <section class="no-padding-bottom">
-            <div class>
-                <div class="content-title">TIMELINE</div>
-                <div id="tab-1" class="tab-section-01 style-1">
-                    <ul class="tabs timeline-button-wrapper">
-                        <li class="active"><a data-toggle="tab" href="#tab0tab-1">INSPIRATION</a></li>
-                        <li><a data-toggle="tab" href="#tab1tab-1">IDEATION</a></li>
-                        <li><a data-toggle="tab" href="#tab2tab-1">IMPLEMENTATION</a></li>
-                    </ul>
-                    <div class="content timeline-content-wrapper">
-                        <div id="tab0tab-1" class="tab-pane fade in active">
-                            <!------------------------TIMELINE------------------------>
-                            <section class="timeline-section-wrapper">
-                                <div class="timeline inspiration-timeline">
-                                    <div class="row timeline-block">
-                                        <div class="col-md-5 timeline-img-wrapper timeline-img-left">
-                                            <img src="./images/Noah Mark.jpg" alt="pic" class="timeline-img">
-                                        </div>
-                                        <div class="marker"></div>
-                                        <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-right">
-                                            <span class="date">March 8th, 2019</span>
-                                            <h3>Noah Mark</h3>
-                                            <p class="text-justify">As part of a preliminary exploration into our project
-                                                this year, we met with intern Noah Mark at the Community Science Institute
-                                                (CSI). The CSI is a nonprofit organization in the Ithaca area that is state-certified
-                                                to monitor water quality. Noah Mark works on monitoring and testing water
-                                                collected at different sites on Cayuga Lake. We spoke with him to learn more
-                                                about the prevalence of harmful algal blooms in the Finger Lakes and what
-                                                methods are currently being used to test their toxicity. He and his colleagues
-                                                told us about ELISA (enzyme-linked immunosorbent assay), the method they
-                                                currently use to test blooms on Cayuga Lake. An important takeaway from our
-                                                meeting was that determining the toxicity of cyanobacterial blooms is both
-                                                costly and time-consuming. Noah also suggested focusing on water treatment
-                                                or toxin breakdown, rather than just algae clean-up. Meeting with Noah helped
-                                                us assess which direction we wanted to pursue our project.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div class="row timeline-block">
-                                        <div class="marker"></div>
-                                        <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-left">
-                                            <span class="date">March 12th, 2019</span>
-                                            <h3>Dr. Nelson Hairston</h3>
-                                            <p class="text-justify">Dr. Nelson Hairston is a professor at Cornell University
-                                                researching freshwater organisms and their ecological and evolutionary response
-                                                to environmental change. We conducted an interview with him to learn more
-                                                about the causes and formation of algal blooms. He told us that a major part
-                                                of formation is phosphorus, which comes from runoff and legacy sediment.
-                                                Additionally, there is the phenomenon of thermal stratification, which leads
-                                                to the build-up of phosphorus at the bottom of a lake. Professor Hairston
-                                                went on to explain that continuous stratification mixes phosphorus into the
-                                                rest of the lake, so it is more common for shallow lakes to have more blooms.
-                                                Consequently, this is why the Finger Lakes region is more subject to HABs
-                                                occurring. Our meeting with Professor Hairston gave us insight on bloom occurrence
-                                                and build-up, and thus, we developed a stronger understanding as to why our
-                                                region is especially affected. </p>
-                                        </div>
-                                        <div class="col-md-5 col-md-offset-1 timeline-img-wrapper timeline-img-right">
-                                            <img src="./images/Nelson Hairston.jpg" alt="pic" class="timeline-img">
-                                        </div>
-                                    </div>
-
-                                    <div class="row timeline-block">
-                                        <div class="marker"></div>
-                                        <div class="col-md-5 timeline-img-wrapper timeline-img-left">
-                                            <img src="./images/Pat Crowley.jpg" alt="pic" class="timeline-img">
-                                        </div>
-                                        <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-right">
-                                            <span class="date">March 21st, 2019</span>
-                                            <h3>Pat Crowley</h3>
-                                            <p class="text-justify">We met with Pat Crowley, the Merrill Family Sailing Center
-                                                Manager to discuss his experience with algal blooms as someone who frequents
-                                                the lake. Conversing with him helped us gain perspective from someone who
-                                                may not know all of the science behind harmful algal blooms (HABs) but has
-                                                been affected by them. Pat told us that algal blooms impact people’s ability
-                                                to go into the water because the wait time between sampling the water and
-                                                obtaining positive lab results prevents water access until the bloom clears
-                                                up. In addition, there are health risks involved in being near contaminated
-                                                water. For example, humans may have adverse reactions by coming into contact
-                                                with the toxins produced by blooms. His comments inspired us to look further
-                                                into an effective detection and treatment method that would allow for faster
-                                                turnaround than existing methods. <br><br> When we asked him about the possibility
-                                                of building a boat to collect water samples, he advised us to consider the
-                                                size and mobility of our vehicle when navigating “nooks and crannies” on
-                                                a lake (e.g. a dock). His suggestion was later incorporated when we determined
-                                                the dimensions and materials of our boat.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <section class="no-padding-bottom">
-                                <div>
-                                    <div class="content-title">Booklet Distribution Surveys</div>
-                                    <div class="text-justify">Our team believes that members of the community should not
-                                        only be aware of the subject matter of our project but properly informed as well.
-                                        As such, we decided to create an informational packet that would educate people about
-                                        algal blooms. To do this, we first needed to scope out what information people already
-                                        knew about harmful algal blooms, so we created a survey to help us understand the
-                                        extent of their knowledge. We visited and spoke with community members at Ithaca
-                                        Farmers’ Market, Ithaca Commons, and Cornell Campus, and in the end, collected over
-                                        50 responses. The charts below show the results of our survey.
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <img src="./images/survey-results-1.png" alt="pic" class="timeline-img">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <img src="./images/survey-results-2.png" alt="pic" class="timeline-img">
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <img src="./images/survey-results-3.png" alt="pic" class="timeline-img">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <img src="./images/survey-results-4.png" alt="pic" class="timeline-img">
-                                        </div>
-                                    </div>
-                                    <div class="text-justify">
-                                        <br>
-                                        The key takeaways from these responses are as follows:
-                                        <ul>
-                                            <li>While a larger section of people (55%) answered that they either never or
-                                                rarely noticed algal blooms in their local area, there was still a significant
-                                                portion (27.5%) of people that did not know what algal blooms look like.</li>
-                                            <li>Most people (60.8%) think it would be very or extremely difficult to distinguish
-                                                between a harmful algal bloom and non-toxic algal bloom.</li>
-                                            <li>70.6% of people think HABs have an extreme or significant impact on local
-                                                ecosystems, but only 17.7% think that HABs have the same impact on their
-                                                own daily lives.</li>
-                                            <li>74.5% of people would be comfortable seeing an automated boat collecting
-                                                water samples from local lakes.</li>
-                                        </ul>
-                                        Using these conclusions, we created an informational booklet to serve as an introduction to HABs, including information on
-                                        what they are and how they affect the environment. We discuss this booklet in further
-                                        detail on our Collaborations page, where we have also included a PDF of the final
-                                        version. <br><br>Note: iGEM requires any form of human research to comply with established
-                                        ethical standards, hence we consulted the website for Cornell’s Institutional Review
-                                        Board. The website included a Decision Tree for determining whether organizations
-                                        need to submit an application to the IRB prior to carrying out their research. Since
-                                        our research primarily involved anonymous community surveys to gauge the public’s
-                                        opinion and knowledge of harmful algal blooms, it was determined that it was not
-                                        necessary to submit an application to the IRB.
-                                    </div>
-                                </div>
-                            </section>
-                            <!------------------------END TIMELINE------------------------>
+                <div class="nav-bar-main-menu">
+                    <div class="dropdown">
+                        <button class="dropbtn">TEAM</button>
+                        <div class="dropdown-content team-dropdown-content">
+                            <a href="http://2019.igem.org/Team:Cornell/Team">BIOS</a>
+                            <a href="http://2019.igem.org/Team:Cornell/Sponsors">SPONSORS</a>
+                            <a href="http://2019.igem.org/Team:Cornell/Attributions">ATTRIBUTIONS</a>
                         </div>
-                        <div id="tab1tab-1" class="tab-pane fade undefined undefined">
-                            <!------------------------TIMELINE------------------------>
-                            <section>
-                                <div class="timeline ideation-timeline">
-                                    <div class="row timeline-block">
-                                        <div class="marker"></div>
-                                        <div class="col-md-5 timeline-img-wrapper timeline-img-left">
-                                            <img src="./images/Shady Amin.jpg" alt="pic" class="timeline-img">
-                                        </div>
-
-                                        <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-right">
-                                            <span class="date">March 21st, 2019</span>
-                                            <h3>Shady Amin</h3>
-                                            <p class="text-justify">The interview with Shady Amin was conducted over Skype.
-                                                One of the major talking points of the interview was the formation of harmful
-                                                algal blooms (HABs). Generally speaking, it is known that having more nutrients
-                                                in the water, specifically nitrogen and phosphorus, increases the likelihood
-                                                that algal blooms will form. What is unknown, however, is how microcystins
-                                                are formed. Professor Amin theorized that there must be some type of cell-to-cell
-                                                communication between the cyanobacteria that stimulates the growth and formation
-                                                of microcystin-forming bacteria. Professor Amin also mentioned that two of
-                                                the major methods of testing for microcystins are HPLC and ELISA. ELISA is
-                                                a much quicker process than HPLC and has very high throughput. A test using
-                                                ELISA only takes about 2 hours. ELISA, however, is much less accurate and
-                                                worse at determining the concentration of toxins compared to HPLC. HPLC takes
-                                                a much longer time and is very expensive but is extremely accurate and provides
-                                                information on the concentration of microcystins in the water. From our conversation
-                                                with Professor Amin, we noted the importance of finding a solution that is
-                                                more efficient and effective than current methods of detection.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div class="row timeline-block">
-                                        <div class="marker"></div>
-                                        <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-left">
-                                            <span class="date">March 23rd, 2019</span>
-                                            <h3>Julie Lockhart</h3>
-                                            <p class="text-justify">Julie Lockhart is a volunteer at CSI that works especially
-                                                with algal blooms. She helps collect samples from the finger lakes region
-                                                for CSI to analyze. Julie shared with us a lot of personal experiences with
-                                                algal blooms and how it has been difficult to control and identify where
-                                                the algal blooms would grow and which ones were harmful. One of the major
-                                                complaints Julie had was the identification of HABs from normal algal blooms.
-                                                When she collected a sample of algal bloom, CSI would obtain the sample but
-                                                would have to send them off in order to test them for analysis. The method
-                                                used is usually an ELISA which should not take a very long time to run an
-                                                assay. The results she would receive, however, would take about 3 weeks to
-                                                come in. At that point, the algal bloom is already cleared and the data is
-                                                practically useless. This allowed us to see the need and importance for an
-                                                instantaneous detection method, especially for differentiating between HABs
-                                                and normal algal blooms.</p>
-                                        </div>
-
-                                        <div class="col-md-5 col-md-offset-1 timeline-img-wrapper timeline-img-right">
-                                            <img src="./images/Julie Lockhart.png" alt="pic" class="timeline-img">
-                                        </div>
-                                    </div>
-
-                                    <div class="row timeline-block">
-                                        <div class="marker"></div>
-                                        <div class="col-md-5 timeline-img-wrapper timeline-img-left">
-                                            <img src="./images/Mark Wysocki.jpg" alt="pic" class="timeline-img">
-                                        </div>
-
-                                        <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-right">
-                                            <span class="date">March 23rd, 2019</span>
-                                            <h3>Mark Wysocki</h3>
-                                            <p class="text-justify">Mark Wysocki is a senior Lecturer at Cornell whose interests
-                                                lie in Meteorology. In the event <i>Nutrients in the Watershed, Unusual Weather,
-                                                    and Harmful Algal Blooms: A Public Conversation</i>, he focused on the
-                                                differences between climate and weather. He discussed the climate around
-                                                Cayuga Lake and how it has changed over time. One of the major points Mark
-                                                Wysocki talked about is how the changing climate contributed to earlier bloom
-                                                seasons, longer bloom seasons, and a higher possibility of runoff to occur.
-                                                With the rise in fluctuations in climate, nutrients also begin to fluctatte
-                                                creating unpredictable patterns in things like algal blooms. In conclusion,
-                                                Mark Wysocki analyzed the relationship between climate change in the Cayuga
-                                                region and the rise in algal bloom appearances.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div class="row timeline-block">
-                                        <div class="marker"></div>
-                                        <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-left">
-                                            <span class="date">March 23rd, 2019</span>
-                                            <h3>Stephen Penningroth</h3>
-                                            <p class="text-justify">Stephen Penningroth spoke at an event sponsored by the
-                                                Community Science Institute called <i>Nutrients in the Watershed, Unusual
-                                                    Weather, and Harmful Algal Blooms: A Public Conversation</i> at Aurora,
-                                                New York. He presented the section called “Monitoring Phosphorus and Nitrogen
-                                                in the Cayuga Lake Watershed” and discussed some of the volunteer monitoring
-                                                partnerships that help oversee the Cayuga Watershed. Three to four times
-                                                a year, a group will go out to collect samples on Fall Creek at six to seven
-                                                different locations. The lab analyzes the samples for nutrients, bacteria,
-                                                chloride, and mineral parameters. This volunteer system is very low-cost
-                                                and overall works better than a consulting firm. However, the resolution
-                                                of the data could be improved by a more continuous sampling method. His comments
-                                                helped shape our project by steering us towards solutions that can provide
-                                                higher resolution data.
-                                            </p>
-                                        </div>
-
-                                        <div class="col-md-5 col-md-offset-1 timeline-img-wrapper timeline-img-right">
-                                            <img src="./images/Stephen Penningroth.jpg" alt="pic" class="timeline-img">
-                                        </div>
-                                    </div>
-
-                                    <div class="row timeline-block">
-                                        <div class="marker"></div>
-                                        <div class="col-md-5 timeline-img-wrapper timeline-img-left">
-                                            <img src="./images/David Erickson.png" alt="pic" class="timeline-img">
-                                        </div>
-
-                                        <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-right">
-                                            <span class="date">March 25th, 2019</span>
-                                            <h3>David Erickson</h3>
-                                            <p class="text-justify">Professor David Erickson’s area of expertise is in microfluidics
-                                                and point-of-care diagnostics. When we initially reached out to Professor
-                                                Erickson, we had been considering the use of microfluidics in our project
-                                                to detect microcystins. However, our team was not very familiar with how
-                                                microfluidics might fit into the scope of our project, so we sought Professor
-                                                Erickson’s advice on which areas we should pay special attention to when
-                                                designing our system. During the meeting, Professor Erickson brought up an
-                                                important point about how water samples tend to be quite dilute so sample
-                                                processing would need to be done before we could test the samples using a
-                                                microfluidics chip. He also mentioned that when deciding on parts for our
-                                                system, we need to consider what kind of information we are trying to obtain
-                                                as well as whether there are any antibodies that are specific to what we
-                                                are trying to detect. Although we ultimately decided not to pursue the route
-                                                of microfluidics as the method of detection for our project, Professor Erickson’s
-                                                suggestions pointed us in the right direction, and we eventually decided
-                                                to use an RNA aptamer for detecting the presence of microcystins in our water
-                                                samples.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <!------------------------END TIMELINE------------------------>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">OUTREACH</button>
+                        <div class="dropdown-content outreach-dropdown-content">
+                            <a href="https://2019.igem.org/Team:Cornell/EducationAndEngagement">EDUCATION & ENGAGEMENT</a>
+                            <a href="https://2019.igem.org/Team:Cornell/Collaborations">COLLABORATIONS</a>
                         </div>
-                        <div id="tab2tab-1" class="tab-pane fade undefined undefined">
-                            <!------------------------TIMELINE------------------------>
-                            <section>
-                                <div class="timeline implementation-timeline">
-                                    <div class="row timeline-block">
-                                        <div class="marker"></div>
-                                        <div class="col-md-5 timeline-img-wrapper timeline-img-left">
-                                            <img src="./images/Scott VanGaasbeck.png" alt="pic" class="timeline-img">
-                                        </div>
-
-                                        <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-right">
-                                            <span class="date">July 2nd, 2019</span>
-                                            <h3>Scott Van Gaasbeck</h3>
-                                            <p class="text-justify">Our Policy & Practices team went down to the Ithaca Farmers
-                                                Market on Saturday, June 22nd, to gauge the interest of local vendors in
-                                                our project’s topic. One vendor we spoke to was Scott Van Gaasbeck, who runs
-                                                Under the Tree Stoneware &amp Leather Goods. We briefly chatted with Scott
-                                                before exchanging contact information so we could follow-up with more detailed
-                                                questions about his experiences with harmful algal blooms (HABs). During
-                                                our follow-up conversation, Scott confirmed that algal blooms can be seen
-                                                on lakes or ponds in the area during most summers, but it’s difficult to
-                                                distinguish between toxic and non-toxic blooms. He also mentioned that monitoring
-                                                the toxicity levels of algal blooms would be a good idea given the risks
-                                                they pose to human and animal health. When we brought up our team’s idea
-                                                to have a small- to medium-sized boat traversing local lakes to collect water
-                                                samples for detecting toxins, Scott expressed his support and suggested pairing
-                                                our device with satellite technology for locating algal blooms. Scott’s feedback
-                                                provided valuable insight into the thoughts and opinions of community stakeholders,
-                                                which allowed us to ensure that our project aligns with the needs of those
-                                                we aim to help.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div class="row timeline-block">
-                                        <div class="marker"></div>
-                                        <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-left">
-                                            <span class="date">September 6th, 2019</span>
-                                            <h3>Deborah Dawson</h3>
-                                            <p class="text-justify">Deborah Dawson is a Tompkins County Legislator and the
-                                                chair of the Planning, Energy and Environmental Quality committee. After
-                                                attending the monthly meeting of the committee in July, we reached out to
-                                                Mrs. Dawson to learn what initiatives they were pursuing to address HABs
-                                                in the Finger Lakes region, and more specifically, Cayuga Lake. Mrs. Dawson
-                                                explained to us how each Finger Lake had its own circumstances. Smaller lakes,
-                                                such as Owasco Lake, are mostly contained within one county, whereas larger
-                                                lakes are split between multiple counties. It’s easier to address HABs concerns
-                                                in smaller lakes due to the fact that only a single county has to devote
-                                                their resources to remediation and can prioritize their level of concern.
-                                                With larger lakes, such as Cayuga Lake, which is divided between three counties,
-                                                there must be an active collaboration initiative. This can be difficult to
-                                                coordinate, as each county may have different priorities and concerns for
-                                                lake health. However, Mrs. Dawson went on to reassure us that there were
-                                                several community members in these counties that were actively working to
-                                                address HABs. She was kind enough to introduce us and our project to these
-                                                individuals, putting us in contact with an extensive network of community
-                                                members committed to tackling the issue of HABs. These connections offered
-                                                us direction and additional resources to tailor our product for implementation
-                                                in the Cayuga Lake region.
-                                            </p>
-                                        </div>
-
-                                        <div class="col-md-5 col-md-offset-1 timeline-img-wrapper timeline-img-right">
-                                            <img src="./images/Deborah Dawson.jpg" alt="pic" class="timeline-img">
-                                        </div>
-                                    </div>
-
-                                    <div class="row timeline-block">
-                                        <div class="marker"></div>
-                                        <div class="col-md-5 timeline-img-wrapper timeline-img-left">
-                                            <img src="./images/HABs Committee.jpg" alt="pic" class="timeline-img">
-                                        </div>
-
-                                        <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-right">
-                                            <span class="date">September 10th, 2019</span>
-                                            <h3>HABs Committee</h3>
-                                            <p class="text-justify">One of the contacts introduced to us by Deborah Dawson
-                                                was Amanda Champion, District 12 Legislator on Tompkins County Board, who
-                                                invited us to sit in on a meeting with several advocates for HABs remediation.
-                                                Representatives from the Community Science Institute (CSI), other district
-                                                legislators, and several other organizations, such as the Water Treatment
-                                                Facility, were all present. During this meeting, we were able to engage in
-                                                a discussion with other concerned community members about what sort of initiatives
-                                                we should undertake to address the issue of HABs. Moreover, we were able
-                                                to have a conversation about how reHAB would fit into the existing infrastructure
-                                                that deals with HABs. CSI representatives offered us resources to help test
-                                                the accuracy of our water sampling. Additionally, several legislators were
-                                                interested in having us come present to a town board meeting to generate
-                                                more interest in our project.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <!------------------------END TIMELINE------------------------>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">HUMAN PRACTICES</button>
+                        <div class="dropdown-content human-dropdown-content">
+                            <a href="https://2019.igem.org/Team:Cornell/IntegratedPractices">INTEGRATED PRACTICES</a>
+                            <a href="https://2019.igem.org/Team:Cornell/Policies">POLICIES</a>
+                            <a href="https://2019.igem.org/Team:Cornell/Entrepreneurship">ENTREPRENEURSHIP</a>
                         </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn"
+                            onclick="location.href='http://2019.igem.org/Team:Cornell/Model'">MODELING</button>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn active-page">TOOLKIT</button>
+                        <div class="dropdown-content toolkit-dropdown-content">
+                            <ul>
+                                <div class="nav-first-col">
+                                    <li class="wet-lab-list-title"><b>WET LAB</b></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Foundations">FOUNDATIONS</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Demonstrate">DEMONSTRATE</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Parts">PARTS</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/BasicParts">BASIC PARTS</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/CompositeParts">COMPOSITE PARTS</a></li>
+                                </div>
+                                <div class="nav-second-col">
+                                    <li class="pd-list-title"><b>DESIGN</b></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/DesignProcess">DESIGN PROCESS</a></li>
+                                </div>
+                                <div class="nav-third-col">
+                                    <li class="doc-list-title"><b>DOCUMENTATION</b></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Notebook">NOTEBOOK</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Safety">SAFETY</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn"
+                            onclick="http://2019.igem.org/Team:Cornell/Description">ABOUT</button>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn"
+                            onclick="http://2019.igem.org/Team:Cornell">HOME</button>
                     </div>
                 </div>
             </div>
-        </section>
-        <!------------------------END DESCRIPTION------------------------>
-    </div>
-</div>
-</main>
-</body>
+        </nav>
+        <!------------------------ NAV BAR END ------------------------>
+        <!------------------------ STANDARD PAGE BANNER START ------------------------>
+        <header class="standard-page-banner">
+            <svg viewBox="0 0 100 100" width=100% height=100%>
+                <circle cx="50" cy="50" r="40" fill="white" fill-opacity="0.4"/>
+                <text text-anchor="middle" alignment-baseline="middle" x=50% y=50%>P&P</text>
+            </svg>
+        </header>
+        <!------------------------ STANDARD PAGE BANNER END ------------------------>
+        <!------------------------PRACTICES CONTENT------------------------>
+        <!------------------------OVERVIEW------------------------>
+        <div class = "pp-page-content-wrapper">
+            <section class="pp-page-content">
+                <div>
+                    <div class="content-title">OUR APPROACH</div>
+                    <div class="text-justify">Before fully forming our idea, we strove to understand the complexity of algal
+                        blooms and their effects around Tompkins County. Speaking with local business owners, legislators, and
+                        field experts, <b>we realized that blooms affect a large subset of people in our community.</b> Using
+                        personal accounts and expertise, we were able to narrow down our project to two main parts that would
+                        effectively address algal blooms in the Finger Lakes: detection and remediation.
+                        <br><br> While we were excited to undertake this task, we first needed to determine the direction we
+                        wanted to take our idea. We spoke with <b>professional experts</b> and <b>community members</b> to pinpoint
+                        our approach to detection, incorporating their thoughts to create an innovative method to quantify microcystin
+                        toxicity. As we finalized our detection system, we started pursuing an effective remediation process.
+                        Using the feedback of <b>legislators</b> and <b>researchers</b>, we designed our degradation system to
+                        expand current legislative initiatives that address HABs. Throughout the entire process, our project
+                        integrated diverse perspectives to fabricate a comprehensive solution with people and the environment
+                        at its core. Here, we highlight the most impactful interviews that we conducted and how our conversations
+                        shaped the course of our project from napkin to prototype.
+                    </div>
+                </div>
+            </section>
+            <!------------------------END OVERVIEW------------------------>
+            <!------------------------DESCRIPTION------------------------>
+            <section class="pp-page-content">
+                <div class>
+                    <div class="content-title">TIMELINE</div>
+                    <div id="tab-1" class="tab-section-01 style-1">
+                        <ul class="tabs timeline-button-wrapper">
+                            <li class="active"><a data-toggle="tab" href="#tab0tab-1">INSPIRATION</a></li>
+                            <li><a data-toggle="tab" href="#tab1tab-1">IDEATION</a></li>
+                            <li><a data-toggle="tab" href="#tab2tab-1">IMPLEMENTATION</a></li>
+                        </ul>
+                        <div class="content timeline-content-wrapper">
+                            <div id="tab0tab-1" class="tab-pane fade in active">
+                                <!------------------------TIMELINE------------------------>
+                                <section class="timeline-section-wrapper">
+                                    <div class="timeline inspiration-timeline">
+                                        <div class="row timeline-block">
+                                            <div class="col-md-5 timeline-img-wrapper timeline-img-left">
+                                                <img src="./images/Noah Mark.jpg" alt="pic" class="timeline-img">
+                                            </div>
+                                            <div class="marker"></div>
+                                            <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-right">
+                                                <span class="date">March 8th, 2019</span>
+                                                <h3>Noah Mark</h3>
+                                                <p class="text-justify">As part of a preliminary exploration into our project
+                                                    this year, we met with intern Noah Mark at the Community Science Institute
+                                                    (CSI). The CSI is a nonprofit organization in the Ithaca area that is state-certified
+                                                    to monitor water quality. Noah Mark works on monitoring and testing water
+                                                    collected at different sites on Cayuga Lake. We spoke with him to learn more
+                                                    about the prevalence of harmful algal blooms in the Finger Lakes and what
+                                                    methods are currently being used to test their toxicity. He and his colleagues
+                                                    told us about ELISA (enzyme-linked immunosorbent assay), the method they
+                                                    currently use to test blooms on Cayuga Lake. An important takeaway from our
+                                                    meeting was that determining the toxicity of cyanobacterial blooms is both
+                                                    costly and time-consuming. Noah also suggested focusing on water treatment
+                                                    or toxin breakdown, rather than just algae clean-up. Meeting with Noah helped
+                                                    us assess which direction we wanted to pursue our project.
+                                                </p>
+                                            </div>
+                                        </div>
 
+                                        <div class="row timeline-block">
+                                            <div class="marker"></div>
+                                            <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-left">
+                                                <span class="date">March 12th, 2019</span>
+                                                <h3>Dr. Nelson Hairston</h3>
+                                                <p class="text-justify">Dr. Nelson Hairston is a professor at Cornell University
+                                                    researching freshwater organisms and their ecological and evolutionary response
+                                                    to environmental change. We conducted an interview with him to learn more
+                                                    about the causes and formation of algal blooms. He told us that a major part
+                                                    of formation is phosphorus, which comes from runoff and legacy sediment.
+                                                    Additionally, there is the phenomenon of thermal stratification, which leads
+                                                    to the build-up of phosphorus at the bottom of a lake. Professor Hairston
+                                                    went on to explain that continuous stratification mixes phosphorus into the
+                                                    rest of the lake, so it is more common for shallow lakes to have more blooms.
+                                                    Consequently, this is why the Finger Lakes region is more subject to HABs
+                                                    occurring. Our meeting with Professor Hairston gave us insight on bloom occurrence
+                                                    and build-up, and thus, we developed a stronger understanding as to why our
+                                                    region is especially affected. </p>
+                                            </div>
+                                            <div class="col-md-5 col-md-offset-1 timeline-img-wrapper timeline-img-right">
+                                                <img src="./images/Nelson Hairston.jpg" alt="pic" class="timeline-img">
+                                            </div>
+                                        </div>
+
+                                        <div class="row timeline-block">
+                                            <div class="marker"></div>
+                                            <div class="col-md-5 timeline-img-wrapper timeline-img-left">
+                                                <img src="./images/Pat Crowley.jpg" alt="pic" class="timeline-img">
+                                            </div>
+                                            <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-right">
+                                                <span class="date">March 21st, 2019</span>
+                                                <h3>Pat Crowley</h3>
+                                                <p class="text-justify">We met with Pat Crowley, the Merrill Family Sailing Center
+                                                    Manager to discuss his experience with algal blooms as someone who frequents
+                                                    the lake. Conversing with him helped us gain perspective from someone who
+                                                    may not know all of the science behind harmful algal blooms (HABs) but has
+                                                    been affected by them. Pat told us that algal blooms impact people’s ability
+                                                    to go into the water because the wait time between sampling the water and
+                                                    obtaining positive lab results prevents water access until the bloom clears
+                                                    up. In addition, there are health risks involved in being near contaminated
+                                                    water. For example, humans may have adverse reactions by coming into contact
+                                                    with the toxins produced by blooms. His comments inspired us to look further
+                                                    into an effective detection and treatment method that would allow for faster
+                                                    turnaround than existing methods. <br><br> When we asked him about the possibility
+                                                    of building a boat to collect water samples, he advised us to consider the
+                                                    size and mobility of our vehicle when navigating “nooks and crannies” on
+                                                    a lake (e.g. a dock). His suggestion was later incorporated when we determined
+                                                    the dimensions and materials of our boat.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="no-padding-bottom">
+                                    <div>
+                                        <div class="content-title">Booklet Distribution Surveys</div>
+                                        <div class="text-justify">Our team believes that members of the community should not
+                                            only be aware of the subject matter of our project but properly informed as well.
+                                            As such, we decided to create an informational packet that would educate people about
+                                            algal blooms. To do this, we first needed to scope out what information people already
+                                            knew about harmful algal blooms, so we created a survey to help us understand the
+                                            extent of their knowledge. We visited and spoke with community members at Ithaca
+                                            Farmers’ Market, Ithaca Commons, and Cornell Campus, and in the end, collected over
+                                            50 responses. The charts below show the results of our survey.
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img src="./images/survey-results-1.png" alt="pic" class="timeline-img">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="./images/survey-results-2.png" alt="pic" class="timeline-img">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img src="./images/survey-results-3.png" alt="pic" class="timeline-img">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="./images/survey-results-4.png" alt="pic" class="timeline-img">
+                                            </div>
+                                        </div>
+                                        <div class="text-justify">
+                                            <br>
+                                            The key takeaways from these responses are as follows:
+                                            <ul>
+                                                <li>While a larger section of people (55%) answered that they either never or
+                                                    rarely noticed algal blooms in their local area, there was still a significant
+                                                    portion (27.5%) of people that did not know what algal blooms look like.</li>
+                                                <li>Most people (60.8%) think it would be very or extremely difficult to distinguish
+                                                    between a harmful algal bloom and non-toxic algal bloom.</li>
+                                                <li>70.6% of people think HABs have an extreme or significant impact on local
+                                                    ecosystems, but only 17.7% think that HABs have the same impact on their
+                                                    own daily lives.</li>
+                                                <li>74.5% of people would be comfortable seeing an automated boat collecting
+                                                    water samples from local lakes.</li>
+                                            </ul>
+                                            Using these conclusions, we created an informational booklet to serve as an introduction to HABs, including information on
+                                            what they are and how they affect the environment. We discuss this booklet in further
+                                            detail on our Collaborations page, where we have also included a PDF of the final
+                                            version. <br><br>Note: iGEM requires any form of human research to comply with established
+                                            ethical standards, hence we consulted the website for Cornell’s Institutional Review
+                                            Board. The website included a Decision Tree for determining whether organizations
+                                            need to submit an application to the IRB prior to carrying out their research. Since
+                                            our research primarily involved anonymous community surveys to gauge the public’s
+                                            opinion and knowledge of harmful algal blooms, it was determined that it was not
+                                            necessary to submit an application to the IRB.
+                                        </div>
+                                    </div>
+                                </section>
+                                <!------------------------END TIMELINE------------------------>
+                            </div>
+                            <div id="tab1tab-1" class="tab-pane fade undefined undefined">
+                                <!------------------------TIMELINE------------------------>
+                                <section>
+                                    <div class="timeline ideation-timeline">
+                                        <div class="row timeline-block">
+                                            <div class="marker"></div>
+                                            <div class="col-md-5 timeline-img-wrapper timeline-img-left">
+                                                <img src="./images/Shady Amin.jpg" alt="pic" class="timeline-img">
+                                            </div>
+
+                                            <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-right">
+                                                <span class="date">March 21st, 2019</span>
+                                                <h3>Shady Amin</h3>
+                                                <p class="text-justify">The interview with Shady Amin was conducted over Skype.
+                                                    One of the major talking points of the interview was the formation of harmful
+                                                    algal blooms (HABs). Generally speaking, it is known that having more nutrients
+                                                    in the water, specifically nitrogen and phosphorus, increases the likelihood
+                                                    that algal blooms will form. What is unknown, however, is how microcystins
+                                                    are formed. Professor Amin theorized that there must be some type of cell-to-cell
+                                                    communication between the cyanobacteria that stimulates the growth and formation
+                                                    of microcystin-forming bacteria. Professor Amin also mentioned that two of
+                                                    the major methods of testing for microcystins are HPLC and ELISA. ELISA is
+                                                    a much quicker process than HPLC and has very high throughput. A test using
+                                                    ELISA only takes about 2 hours. ELISA, however, is much less accurate and
+                                                    worse at determining the concentration of toxins compared to HPLC. HPLC takes
+                                                    a much longer time and is very expensive but is extremely accurate and provides
+                                                    information on the concentration of microcystins in the water. From our conversation
+                                                    with Professor Amin, we noted the importance of finding a solution that is
+                                                    more efficient and effective than current methods of detection.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row timeline-block">
+                                            <div class="marker"></div>
+                                            <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-left">
+                                                <span class="date">March 23rd, 2019</span>
+                                                <h3>Julie Lockhart</h3>
+                                                <p class="text-justify">Julie Lockhart is a volunteer at CSI that works especially
+                                                    with algal blooms. She helps collect samples from the finger lakes region
+                                                    for CSI to analyze. Julie shared with us a lot of personal experiences with
+                                                    algal blooms and how it has been difficult to control and identify where
+                                                    the algal blooms would grow and which ones were harmful. One of the major
+                                                    complaints Julie had was the identification of HABs from normal algal blooms.
+                                                    When she collected a sample of algal bloom, CSI would obtain the sample but
+                                                    would have to send them off in order to test them for analysis. The method
+                                                    used is usually an ELISA which should not take a very long time to run an
+                                                    assay. The results she would receive, however, would take about 3 weeks to
+                                                    come in. At that point, the algal bloom is already cleared and the data is
+                                                    practically useless. This allowed us to see the need and importance for an
+                                                    instantaneous detection method, especially for differentiating between HABs
+                                                    and normal algal blooms.</p>
+                                            </div>
+
+                                            <div class="col-md-5 col-md-offset-1 timeline-img-wrapper timeline-img-right">
+                                                <img src="./images/Julie Lockhart.png" alt="pic" class="timeline-img">
+                                            </div>
+                                        </div>
+
+                                        <div class="row timeline-block">
+                                            <div class="marker"></div>
+                                            <div class="col-md-5 timeline-img-wrapper timeline-img-left">
+                                                <img src="./images/Mark Wysocki.jpg" alt="pic" class="timeline-img">
+                                            </div>
+
+                                            <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-right">
+                                                <span class="date">March 23rd, 2019</span>
+                                                <h3>Mark Wysocki</h3>
+                                                <p class="text-justify">Mark Wysocki is a senior Lecturer at Cornell whose interests
+                                                    lie in Meteorology. In the event <i>Nutrients in the Watershed, Unusual Weather,
+                                                        and Harmful Algal Blooms: A Public Conversation</i>, he focused on the
+                                                    differences between climate and weather. He discussed the climate around
+                                                    Cayuga Lake and how it has changed over time. One of the major points Mark
+                                                    Wysocki talked about is how the changing climate contributed to earlier bloom
+                                                    seasons, longer bloom seasons, and a higher possibility of runoff to occur.
+                                                    With the rise in fluctuations in climate, nutrients also begin to fluctatte
+                                                    creating unpredictable patterns in things like algal blooms. In conclusion,
+                                                    Mark Wysocki analyzed the relationship between climate change in the Cayuga
+                                                    region and the rise in algal bloom appearances.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row timeline-block">
+                                            <div class="marker"></div>
+                                            <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-left">
+                                                <span class="date">March 23rd, 2019</span>
+                                                <h3>Stephen Penningroth</h3>
+                                                <p class="text-justify">Stephen Penningroth spoke at an event sponsored by the
+                                                    Community Science Institute called <i>Nutrients in the Watershed, Unusual
+                                                        Weather, and Harmful Algal Blooms: A Public Conversation</i> at Aurora,
+                                                    New York. He presented the section called “Monitoring Phosphorus and Nitrogen
+                                                    in the Cayuga Lake Watershed” and discussed some of the volunteer monitoring
+                                                    partnerships that help oversee the Cayuga Watershed. Three to four times
+                                                    a year, a group will go out to collect samples on Fall Creek at six to seven
+                                                    different locations. The lab analyzes the samples for nutrients, bacteria,
+                                                    chloride, and mineral parameters. This volunteer system is very low-cost
+                                                    and overall works better than a consulting firm. However, the resolution
+                                                    of the data could be improved by a more continuous sampling method. His comments
+                                                    helped shape our project by steering us towards solutions that can provide
+                                                    higher resolution data.
+                                                </p>
+                                            </div>
+
+                                            <div class="col-md-5 col-md-offset-1 timeline-img-wrapper timeline-img-right">
+                                                <img src="./images/Stephen Penningroth.jpg" alt="pic" class="timeline-img">
+                                            </div>
+                                        </div>
+
+                                        <div class="row timeline-block">
+                                            <div class="marker"></div>
+                                            <div class="col-md-5 timeline-img-wrapper timeline-img-left">
+                                                <img src="./images/David Erickson.png" alt="pic" class="timeline-img">
+                                            </div>
+
+                                            <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-right">
+                                                <span class="date">March 25th, 2019</span>
+                                                <h3>David Erickson</h3>
+                                                <p class="text-justify">Professor David Erickson’s area of expertise is in microfluidics
+                                                    and point-of-care diagnostics. When we initially reached out to Professor
+                                                    Erickson, we had been considering the use of microfluidics in our project
+                                                    to detect microcystins. However, our team was not very familiar with how
+                                                    microfluidics might fit into the scope of our project, so we sought Professor
+                                                    Erickson’s advice on which areas we should pay special attention to when
+                                                    designing our system. During the meeting, Professor Erickson brought up an
+                                                    important point about how water samples tend to be quite dilute so sample
+                                                    processing would need to be done before we could test the samples using a
+                                                    microfluidics chip. He also mentioned that when deciding on parts for our
+                                                    system, we need to consider what kind of information we are trying to obtain
+                                                    as well as whether there are any antibodies that are specific to what we
+                                                    are trying to detect. Although we ultimately decided not to pursue the route
+                                                    of microfluidics as the method of detection for our project, Professor Erickson’s
+                                                    suggestions pointed us in the right direction, and we eventually decided
+                                                    to use an RNA aptamer for detecting the presence of microcystins in our water
+                                                    samples.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <!------------------------END TIMELINE------------------------>
+                            </div>
+                            <div id="tab2tab-1" class="tab-pane fade undefined undefined">
+                                <!------------------------TIMELINE------------------------>
+                                <section>
+                                    <div class="timeline implementation-timeline">
+                                        <div class="row timeline-block">
+                                            <div class="marker"></div>
+                                            <div class="col-md-5 timeline-img-wrapper timeline-img-left">
+                                                <img src="./images/Scott VanGaasbeck.png" alt="pic" class="timeline-img">
+                                            </div>
+
+                                            <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-right">
+                                                <span class="date">July 2nd, 2019</span>
+                                                <h3>Scott Van Gaasbeck</h3>
+                                                <p class="text-justify">Our Policy & Practices team went down to the Ithaca Farmers
+                                                    Market on Saturday, June 22nd, to gauge the interest of local vendors in
+                                                    our project’s topic. One vendor we spoke to was Scott Van Gaasbeck, who runs
+                                                    Under the Tree Stoneware &amp Leather Goods. We briefly chatted with Scott
+                                                    before exchanging contact information so we could follow-up with more detailed
+                                                    questions about his experiences with harmful algal blooms (HABs). During
+                                                    our follow-up conversation, Scott confirmed that algal blooms can be seen
+                                                    on lakes or ponds in the area during most summers, but it’s difficult to
+                                                    distinguish between toxic and non-toxic blooms. He also mentioned that monitoring
+                                                    the toxicity levels of algal blooms would be a good idea given the risks
+                                                    they pose to human and animal health. When we brought up our team’s idea
+                                                    to have a small- to medium-sized boat traversing local lakes to collect water
+                                                    samples for detecting toxins, Scott expressed his support and suggested pairing
+                                                    our device with satellite technology for locating algal blooms. Scott’s feedback
+                                                    provided valuable insight into the thoughts and opinions of community stakeholders,
+                                                    which allowed us to ensure that our project aligns with the needs of those
+                                                    we aim to help.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row timeline-block">
+                                            <div class="marker"></div>
+                                            <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-left">
+                                                <span class="date">September 6th, 2019</span>
+                                                <h3>Deborah Dawson</h3>
+                                                <p class="text-justify">Deborah Dawson is a Tompkins County Legislator and the
+                                                    chair of the Planning, Energy and Environmental Quality committee. After
+                                                    attending the monthly meeting of the committee in July, we reached out to
+                                                    Mrs. Dawson to learn what initiatives they were pursuing to address HABs
+                                                    in the Finger Lakes region, and more specifically, Cayuga Lake. Mrs. Dawson
+                                                    explained to us how each Finger Lake had its own circumstances. Smaller lakes,
+                                                    such as Owasco Lake, are mostly contained within one county, whereas larger
+                                                    lakes are split between multiple counties. It’s easier to address HABs concerns
+                                                    in smaller lakes due to the fact that only a single county has to devote
+                                                    their resources to remediation and can prioritize their level of concern.
+                                                    With larger lakes, such as Cayuga Lake, which is divided between three counties,
+                                                    there must be an active collaboration initiative. This can be difficult to
+                                                    coordinate, as each county may have different priorities and concerns for
+                                                    lake health. However, Mrs. Dawson went on to reassure us that there were
+                                                    several community members in these counties that were actively working to
+                                                    address HABs. She was kind enough to introduce us and our project to these
+                                                    individuals, putting us in contact with an extensive network of community
+                                                    members committed to tackling the issue of HABs. These connections offered
+                                                    us direction and additional resources to tailor our product for implementation
+                                                    in the Cayuga Lake region.
+                                                </p>
+                                            </div>
+
+                                            <div class="col-md-5 col-md-offset-1 timeline-img-wrapper timeline-img-right">
+                                                <img src="./images/Deborah Dawson.jpg" alt="pic" class="timeline-img">
+                                            </div>
+                                        </div>
+
+                                        <div class="row timeline-block">
+                                            <div class="marker"></div>
+                                            <div class="col-md-5 timeline-img-wrapper timeline-img-left">
+                                                <img src="./images/HABs Committee.jpg" alt="pic" class="timeline-img">
+                                            </div>
+
+                                            <div class="col-md-5 col-md-offset-1 timeline-content timeline-content-right">
+                                                <span class="date">September 10th, 2019</span>
+                                                <h3>HABs Committee</h3>
+                                                <p class="text-justify">One of the contacts introduced to us by Deborah Dawson
+                                                    was Amanda Champion, District 12 Legislator on Tompkins County Board, who
+                                                    invited us to sit in on a meeting with several advocates for HABs remediation.
+                                                    Representatives from the Community Science Institute (CSI), other district
+                                                    legislators, and several other organizations, such as the Water Treatment
+                                                    Facility, were all present. During this meeting, we were able to engage in
+                                                    a discussion with other concerned community members about what sort of initiatives
+                                                    we should undertake to address the issue of HABs. Moreover, we were able
+                                                    to have a conversation about how reHAB would fit into the existing infrastructure
+                                                    that deals with HABs. CSI representatives offered us resources to help test
+                                                    the accuracy of our water sampling. Additionally, several legislators were
+                                                    interested in having us come present to a town board meeting to generate
+                                                    more interest in our project.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <!------------------------END TIMELINE------------------------>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!------------------------END DESCRIPTION------------------------>
+
+
+        <!------------------------ FOOTER START ------------------------>
+        <footer>
+            <div class="footer-wrapper">
+                <div class="icon-wrapper">
+                    <a class="icon" href="http://facebook.com/cornelligem"><img src="images/facebook-32.png"></a>
+                </div>
+                <div class="icon-wrapper">
+                    <a class="icon" href="http://twitter.com/cugem"><img src="images/twitter-32.png"></a>
+                </div>
+                <div class="icon-wrapper">
+                    <a class="icon" href="https://www.instagram.com/cugem/"><img src="images/instagram-32.png"></a>
+                </div>
+                <div class="icon-wrapper icon-wrapper-last">
+                    <a class="icon" href="https://www.youtube.com/channel/UCJt-5JfyoucUJXC1EsTllhg"><img
+                            src="images/youtube-32.png"></a>
+                </div>
+            </div>
+        </footer>
+        <!------------------------ FOOTER END ------------------------>
+    </div>
+</body>
 </html>
+
+
+
+
+
+
+
+

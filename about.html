@@ -23,7 +23,12 @@
 
         /* removes default styling for home banner tagline */
         #HQ_page p {
-            font-family: 'Opens Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 100;
+            color: #000;
+            padding-top: 0;
+            padding-bottom: 0;
         }
 
         /* removes small extra margin at very bottom below footer */
@@ -41,16 +46,15 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <link rel="stylesheet" type="text/css" href="styles/grids.css">
+    <!-- JS -->
+    <script src="http://2019.igem.org/Team:Cornell/jquerymin?action=raw&ctype=text/javascript"></script>
 </head>
 
 <body>
-    <div class ="about-page-wrapper">
+    <div class ="standard-page-wrapper">
         <!------------------------ NAV BAR START ------------------------>
         <nav>
             <div class="nav-bar-wrapper">
-                <div class="nav-bar-logo">
-                        <a href="home"><img src="images/logo.png" alt="reHAB"></a>
-                </div>
                 <div class="nav-bar-main-menu">
                     <div class="dropdown">
                         <button class="dropbtn">TEAM</button>
@@ -63,16 +67,16 @@
                     <div class="dropdown">
                         <button class="dropbtn">OUTREACH</button>
                         <div class="dropdown-content outreach-dropdown-content">
-                            <a href="#">EDUCATION & ENGAGEMENT</a>
-                            <a href="#">COLLABORATIONS</a>
+                            <a href="https://2019.igem.org/Team:Cornell/EducationAndEngagement">EDUCATION & ENGAGEMENT</a>
+                            <a href="https://2019.igem.org/Team:Cornell/Collaborations">COLLABORATIONS</a>
                         </div>
                     </div>
                     <div class="dropdown">
                         <button class="dropbtn">HUMAN PRACTICES</button>
                         <div class="dropdown-content human-dropdown-content">
-                            <a href="#">INTEGRATED PRACTICES</a>
-                            <a href="#">POLICIES</a>
-                            <a href="#">ENTREPRENEURSHIP</a>
+                            <a href="https://2019.igem.org/Team:Cornell/IntegratedPractices">INTEGRATED PRACTICES</a>
+                            <a href="https://2019.igem.org/Team:Cornell/Policies">POLICIES</a>
+                            <a href="https://2019.igem.org/Team:Cornell/Entrepreneurship">ENTREPRENEURSHIP</a>
                         </div>
                     </div>
                     <div class="dropdown">
@@ -88,18 +92,12 @@
                                     <li><a href="http://2019.igem.org/Team:Cornell/Foundations">FOUNDATIONS</a></li>
                                     <li><a href="http://2019.igem.org/Team:Cornell/Demonstrate">DEMONSTRATE</a></li>
                                     <li><a href="http://2019.igem.org/Team:Cornell/Parts">PARTS</a></li>
-                                    <li><a href="http://2019.igem.org/Team:Cornell/InterLab">BASIC PARTS</a></li>
-                                    <li><a href="http://2019.igem.org/Team:Cornell/InterLab">COMPOSITE PARTS</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/BasicParts">BASIC PARTS</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/CompositeParts">COMPOSITE PARTS</a></li>
                                 </div>
                                 <div class="nav-second-col">
                                     <li class="pd-list-title"><b>DESIGN</b></li>
-                                    <li><a href="http://2019.igem.org/Team:Cornell/Notebook">DESIGN PROCESS</a></li>
-                                    <li><a href="http://2019.igem.org/Team:Cornell/Safety">APPLIED DESIGN - SAMPLER</a>
-                                    </li>
-                                    <li><a href="http://2019.igem.org/Team:Cornell/Safety">APPLIED DESIGN -
-                                            BIOREACTOR</a></li>
-                                    <li><a href="http://2019.igem.org/Team:Cornell/Safety">FUTURE WORKS</a></li>
-                                    <li><a href="http://2019.igem.org/Team:Cornell/Safety">REFERENCES</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/DesignProcess">DESIGN PROCESS</a></li>
                                 </div>
                                 <div class="nav-third-col">
                                     <li class="doc-list-title"><b>DOCUMENTATION</b></li>
@@ -111,11 +109,11 @@
                     </div>
                     <div class="dropdown">
                         <button class="dropbtn active-page"
-                            onclick="location.href='http://2019.igem.org/Team:Cornell/Description '">ABOUT</button>
+                            onclick="http://2019.igem.org/Team:Cornell/Description">ABOUT</button>
                     </div>
                     <div class="dropdown">
                         <button class="dropbtn"
-                            onclick="location.href='http://2019.igem.org/Team:Cornell'">HOME</button>
+                            onclick="http://2019.igem.org/Team:Cornell">HOME</button>
                     </div>
                 </div>
             </div>
@@ -129,41 +127,91 @@
             </svg>
         </header>
         <!------------------------ STANDARD PAGE BANNER END ------------------------>
-        <!------------------------ ABOUT PAGE CONTENT START ------------------------>
-        <div class="about-page-content-wrapper">
-          <div class="about-content-wrapper">
-            <div class="about-header-wrapper"><p class="about-header-text">Project Overview<p></div>
-            <div class="about-text-wrapper">
-              <p class="about-body-text">At Cornell iGEM, we understand the risks associated with our 
+                <!------------------------ STANDARD PAGE BANNER START ------------------------>
+        <header class="standard-page-banner">
+            <svg viewBox="0 0 100 100" width=100% height=100%>
+                <circle cx="50" cy="50" r="40" fill="white" fill-opacity="0.4"/>
+                <text text-anchor="middle" alignment-baseline="middle" x=50% y=50%>About</text>
+            </svg>
+        </header>
+        <!------------------------ STANDARD PAGE BANNER END ------------------------>
+        <!------------------------ STANDARD PAGE SIDE BAR + CONTENT START ------------------------>
+        <div class="standard-page-side-bar-content-wrapper">
+            <!------------------------ STANDARD PAGE SIDE BAR START ------------------------>
+            <div class="standard-page-side-bar-wrapper">
+                <ul class="standard-page-side-bar">
+                    <li><a href="#pageheading1">PROJECT OVERVIEW</a></li>
+                    <li><a href="#pageheading2">PAGE HEADING 2</a></li>
+                    <li><a href="#pageheading3">PAGE HEADING 3</a></li>
+                </ul>
+            </div>
+            <!------------------------ STANDARD PAGE SIDE BAR END ------------------------>
+            <!------------------------ STANDARD PAGE CONTENT START ------------------------>
+            <div class="standard-page-content-wrapper">
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><a id="pageheading1">PROJECT OVERVIEW</a></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-subheading">Subheading</div>
+                    <p class="standard-page-content-text">
+                        At Cornell iGEM, we understand the risks associated with our 
               work and take all necessary precautions to minimize those risks. As a team, we take safety 
               very seriously and a detailed description of our procedures can be found below. 
               Our protocols are guided by the risk matrix, as we try to both minimize the likelihood 
               of an incident as well as the severity of an incident. Our completed safety form can 
-              be found <a id="safety-hyperlink" href="https://2019.igem.org/File:T--Cornell--Safety2019_Spreadsheet.xls">here</a>.</p>
+              be found <a id="safety-hyperlink" href="https://2019.igem.org/File:T--Cornell--Safety2019_Spreadsheet.xls">here</a>.
+                    </p>
+                    <img class="standard-page-content-image" src="">
+                </div>
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><a id="pageheading2">PAGE HEADING 2</a></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-subheading">Subheading</div>
+                    <p class="standard-page-content-text">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </p>
+                    <img class="standard-page-content-image" src="">
+                </div>
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><a id="pageheading3">PAGE HEADING 3</a></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-subheading">Subheading</div>
+                    <p class="standard-page-content-text">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est laborum."</p>
+                    <img class="standard-page-content-image" src="">
+                </div>
             </div>
-        <!--DO NOT FORGET TO ADD IN THIS HYPERLINK OH MY GOD-->
-          </div>
+            <!------------------------ STANDARD PAGE CONTENT END ------------------------>
         </div>
-        <!------------------------ ABOUT PAGE CONTENT END ------------------------>
+        <!------------------------ STANDARD PAGE SIDE BAR + CONTENT END ------------------------>
+
         <!------------------------ FOOTER START ------------------------>
         <footer>
             <div class="footer-wrapper">
                 <div class="icon-wrapper">
-                    <a class="icon" href=""><img src="images/facebook-32.png"></a>
+                    <a class="icon" href="http://facebook.com/cornelligem"><img src="https://2019.igem.org/wiki/images/4/44/T--Cornell--Facebook.png"></a>
                 </div>
                 <div class="icon-wrapper">
-                    <a class="icon" href=""><img src="images/twitter-32.png"></a>
+                    <a class="icon" href="http://twitter.com/cugem"><img src="https://2019.igem.org/wiki/images/8/80/T--Cornell--Twitter.png"></a>
                 </div>
                 <div class="icon-wrapper">
-                    <a class="icon" href=""><img src="images/instagram-32.png"></a>
+                    <a class="icon" href="https://www.instagram.com/cugem/"><img src="https://2019.igem.org/wiki/images/3/37/T--Cornell--Instagram.png"></a>
                 </div>
                 <div class="icon-wrapper icon-wrapper-last">
-                    <a class="icon" href=""><img src="images/youtube-32.png"></a>
+                    <a class="icon" href="https://www.youtube.com/channel/UCJt-5JfyoucUJXC1EsTllhg"><img src="https://2019.igem.org/wiki/images/3/3c/T--Cornell--Youtube.png"></a>
                 </div>
             </div>
         </footer>
         <!------------------------ FOOTER END ------------------------>
     </div>
 </body>
-
 </html>

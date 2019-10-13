@@ -256,12 +256,12 @@
 
 .inspiration-timeline::before {
     transform: translate(-50%, -52%);
-    height: 2000px;
+    height: 1650px;
 }
 
 .ideation-timeline::before {
     transform: translate(-50%, -51%);
-    height: 2850px;
+    height: 2800px;
 }
 
 .implementation-timeline::before {

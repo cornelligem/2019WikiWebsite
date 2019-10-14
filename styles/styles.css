@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Futura;
+    src: url("../futura/Futura Light font.ttf");
+}
+
+@font-face {
+    font-family: Futura-Bold;
+    src: url("../futura/Futura\ Bold\ font.ttf");
+}
+
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Raleway');
 html,
 body {
@@ -6,6 +16,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: Futura, sans-serif;
 }
 
 body {
@@ -14,7 +25,7 @@ body {
 
 p {
     color: #000;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: Futura, sans-serif; */
 }
 
 nav {
@@ -37,8 +48,9 @@ nav {
     width: 140px;
 }
 
-.nav-bar-main-menu {
-    font-family: 'Raleway', sans-serif;
+.nav-bar-main-menu button {
+    font-family: Futura, sans-serif !important;
+    font-size: 20px;
 }
 
 .banner-container {
@@ -106,7 +118,7 @@ nav {
     background-color: #016C64;
     color: #ffffff;
     width: 200px;
-    font-size: 14px;
+    font-size: 20px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
@@ -226,7 +238,7 @@ footer {
 .notebook-header-text,
 .safety-header-text,
 .about-header-text {
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
     font-size: 24pt;
     text-align: center;
     color: #000;
@@ -243,7 +255,7 @@ footer {
 .notebook-body-text,
 .safety-body-text,
 .about-body-text {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     color: #000;
 }
 
@@ -267,8 +279,8 @@ footer {
 
 .home-description {
     color: #000;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-size: 20px;
     margin-bottom: 80px;
     text-align: center;
 }
@@ -285,8 +297,9 @@ footer {
 }
 
 .tile-title {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 700;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    /* font-weight: 700; */
+    font-family: Futura-Bold;
     font-size: 30px;
     color: rgb(30, 30, 30);
     text-align: center;
@@ -323,7 +336,7 @@ footer {
 .standard-page-banner {
     background-image: url(https://2019.igem.org/wiki/images/6/63/T--Cornell--TeamPic.png);
     background-size: cover;
-    font-family: Raleway;
+    /* font-family: Raleway; */
     fill: black;
     font-size: 14px;
 }
@@ -341,7 +354,7 @@ footer {
 
 .standard-page-side-bar {
     list-style-type: none;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     padding-left: 15px;
     padding-right: 15px;
     vertical-align: middle;
@@ -353,7 +366,7 @@ footer {
 }
 
 .standard-page-content-title {
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
     font-size: 24px;
     font-weight: 700;
     color: #000;
@@ -369,7 +382,7 @@ footer {
 }
 
 .standard-page-content-subheading {
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
     font-size: 18px;
     font-weight: 1;
     color: #000;
@@ -394,7 +407,7 @@ footer {
 }
 
 .team-page-content-title {
-    font-family: 'Merriweather';
+    /* font-family: 'Merriweather'; */
     font-size: 24px;
     font-weight: 100;
     color: #000;
@@ -402,7 +415,7 @@ footer {
 }
 
 .team-page-content-subheading {
-    font-family: 'Merriweather';
+    /* font-family: 'Merriweather'; */
     font-size: 18px;
     font-weight: 1;
     color: #000;
@@ -411,7 +424,7 @@ footer {
 }
 
 p.team-page-content-text {
-    font-family: 'Open Sans';
+    /* font-family: 'Open Sans'; */
     font-size: 16px;
     font-weight: 100;
     color: #000;
@@ -530,7 +543,7 @@ p.team-page-content-text {
 }
 
 .notebook-header-text {
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
     font-size: 24pt;
     text-align: center;
     color: #000;
@@ -542,7 +555,7 @@ p.team-page-content-text {
 }
 
 .notebook-body-text {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     color: #000;
 }
 

@@ -12,7 +12,6 @@
         }
 
         #content {
-            background: #0d1c38;
             padding: 0px;
             width: 100% !important;
             margin-top: 0px;
@@ -36,17 +35,11 @@
 
     </style>
     <title>Team:Cornell - 2019.igem.org</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Practices">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--CSS-->
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="styles/pp.css">
     <!-- JS-->
     <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
-    <!--Timeline JS-->
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -157,14 +150,16 @@
             <section class="pp-page-content">
                 <div class>
                     <div class="content-title">TIMELINE</div>
-                    <div id="tab-1" class="tab-section-01 style-1">
+                    <div class="tab-section-01 style-1">
                         <ul class="tabs timeline-button-wrapper">
-                            <li class="active"><a data-toggle="tab" href="#tab0tab-1">INSPIRATION</a></li>
-                            <li><a data-toggle="tab" href="#tab1tab-1">IDEATION</a></li>
-                            <li><a data-toggle="tab" href="#tab2tab-1">IMPLEMENTATION</a></li>
+                            <li><a href="#tab0tab-1">INSPIRATION</a></li>
+                            <li><a href="#tab1tab-1">IDEATION</a></li>
+                            <li><a href="#tab2tab-1">IMPLEMENTATION</a></li>
                         </ul>
+                        <hr>
                         <div class="content timeline-content-wrapper">
-                            <div id="tab0tab-1" class="tab-pane fade in active">
+                            <div id="tab0tab-1">
+                                <div class="content-title">INSPIRATION</div>
                                 <!------------------------TIMELINE------------------------>
                                 <section class="timeline-section-wrapper">
                                     <div class="timeline inspiration-timeline">
@@ -246,7 +241,7 @@
                                         </div>
                                     </div>
                                 </section>
-                                <section class="no-padding-bottom">
+                                <section class="pp-tab-content">
                                     <div>
                                         <div class="content-title">Booklet Distribution Surveys</div>
                                         <div class="text-justify">Our team believes that members of the community should not
@@ -304,7 +299,9 @@
                                 </section>
                                 <!------------------------END TIMELINE------------------------>
                             </div>
-                            <div id="tab1tab-1" class="tab-pane fade undefined undefined">
+                            <hr>
+                            <div id="tab1tab-1">
+                                <div class="content-title">IDEATION</div>
                                 <!------------------------TIMELINE------------------------>
                                 <section>
                                     <div class="timeline ideation-timeline">
@@ -446,7 +443,9 @@
                                 </section>
                                 <!------------------------END TIMELINE------------------------>
                             </div>
-                            <div id="tab2tab-1" class="tab-pane fade undefined undefined">
+                            <hr>
+                            <div id="tab2tab-1">
+                                <div class="content-title">IMPLEMENTATION</div>
                                 <!------------------------TIMELINE------------------------>
                                 <section>
                                     <div class="timeline implementation-timeline">

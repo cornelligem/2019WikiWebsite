@@ -17,20 +17,42 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
+.hidden {
+    display: none;
+}
+
 nav {
+    position: fixed;
+    width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-right: 100px;
-    background-color: #a0e0bd;
+    /* padding-right: 100px;
+    background-color: #a0e0bd; */
     height: 38px;
+    z-index: 1;
+    /* color: black; */
+    background-color: white;
+    box-shadow: 0px 5px 10px rgba(131, 131, 131, 0.5);
+}
+
+nav.scrolled {
+    background-color: #a0e0bd;
+    /* background-color: transparent; */
+    /* z-index: 0; */
+    transition: 250ms ease;
+    box-shadow: none;
+}
+
+.nav-bar-wrapper {
+    position: relative;
+    top: 0px;
 }
 
 .nav-bar-logo {
-    vertical-align: top;
-    display: inline-block;
-    float: left;
-    margin-left: 80px;
-    margin-top: -5px;
+    position: absolute;
+    background-color: pink; /* temp */
+    margin-left: 50px;
+    margin-top: -10px;
 }
 
 .nav-bar-logo img {
@@ -41,7 +63,11 @@ nav {
     font-family: 'Raleway', sans-serif;
 }
 
-.banner-container {
+.nav-bar-main-menu {
+    margin-right: 50px;
+}
+
+/* .banner-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -73,7 +99,11 @@ nav {
     margin: 0px;
     font-size: 15px;
     border: none;
-    color: #fff;
+    color: black;
+}
+
+b {
+    text-decoration: underline;
 }
 
 @media (max-width: 1050px) {

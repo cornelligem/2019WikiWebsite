@@ -132,7 +132,7 @@ footer {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 100px 550px auto 100px;
-    grid-template-areas: "navbar" "standardpagebanner" "standardpagesidebarcontent" "footer";
+    grid-template-areas: 'navbar' 'standardpagebanner' 'standardpagesidebarcontent' 'footer';
 }
 
 .standard-page-banner {
@@ -143,7 +143,7 @@ footer {
     display: inline-grid;
     grid-area: standardpagesidebarcontent;
     grid-template-columns: 7.5% 20% 65% 7.5%;
-    grid-template-areas: ". standardpagesidebar standardpagecontent .";
+    grid-template-areas: '. standardpagesidebar standardpagecontent .';
 }
 
 .standard-page-side-bar-wrapper {
@@ -164,7 +164,7 @@ footer {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 100px 550px auto 100px;
-    grid-template-areas: "navbar" "standardpagebanner" "safetypagecontent" "footer";
+    grid-template-areas: 'navbar' 'standardpagebanner' 'safetypagecontent' 'footer';
 }
 
 .about-page-content-wrapper {
@@ -182,7 +182,7 @@ footer {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 100px 550px auto 100px;
-    grid-template-areas: "navbar" "standardpagebanner" "teampagecontent" "footer";
+    grid-template-areas: 'navbar' 'standardpagebanner' 'teampagecontent' 'footer';
 }
 
 .team-page-content-area {
@@ -199,7 +199,7 @@ footer {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 100px 550px auto 100px;
-    grid-template-areas: "navbar" "notebookpagebanner" "notebookpagecontent" "footer";
+    grid-template-areas: 'navbar' 'notebookpagebanner' 'notebookpagecontent' 'footer';
 }
 
 .notebook-page-content-wrapper {
@@ -213,3 +213,29 @@ footer {
 
 
 /******************** NOTEBOOK PAGE END ********************/
+
+
+/******************** SPONSORS PAGE START ********************/
+
+.sponsors-page-wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px 550px auto 100px;
+    grid-template-areas: 'navbar' 'standardpagebanner' 'sponsorspagecontent' 'footer';
+}
+
+.sponsors-page-content-wrapper {
+    display: grid;
+    grid-area: sponsorspagecontent;
+    grid-template-columns: 150px auto 150px;
+    grid-template-areas: '. sponsorcontent .';
+}
+
+.sponsors-content-wrapper {
+    display: grid;
+    grid-area: sponsorcontent;
+    grid-template-columns: 40% 60%;
+}
+
+
+/******************** SPONSORS PAGE END ********************/

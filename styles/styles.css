@@ -363,8 +363,13 @@ footer {
     font-size: 18px;
     font-weight: 1;
     color: #000;
-    padding-top: 8%;
+    padding-top: 40px;
     padding-bottom: 0;
+}
+
+.standard-page-content-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 
@@ -502,7 +507,6 @@ p.team-page-content-text {
 
 .notebook-page-banner {
     background-color: #a0e0bd;
-    background-position: 0 -200px;
 }
 
 .notebook-page-content-wrapper {
@@ -523,12 +527,12 @@ p.team-page-content-text {
 }
 
 .notebook-text-wrapper {
-    padding-left: 100px;
     padding-top: 20px;
 }
 
 .notebook-body-text {
     color: #000;
+    margin-top: 20px;
 }
 
 #safety-hyperlink {
@@ -537,3 +541,46 @@ p.team-page-content-text {
 
 
 /******************** NOTEBOOK PAGE END ********************/
+
+
+/******************** SPONSORS PAGE START ********************/
+
+.sponsors-page-banner {
+    background-color: #a0e0bd;
+}
+
+.sponsors-page-content-wrapper {
+    background: #fff;
+    padding: 5% 0;
+}
+
+.sponsor-image-wrapper,
+.sponsor-description-wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.sponsor-description-wrapper {
+    display: table;
+}
+
+.sponsor-image {
+    display: block;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sponsor-description-wrapper {
+    margin-left: 100px;
+}
+
+.sponsor-description {
+    display: table-cell;
+    font-family: 'Open Sans', sans-serif;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+
+/******************** SPONSORS PAGE END ********************/

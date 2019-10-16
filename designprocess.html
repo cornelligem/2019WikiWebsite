@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+        /* hides "Team:Cornell" and iGEM logo */
+        #top_title {
+            display: none;
+        }
+
+        /* removes padding below footer */
+        #globalWrapper {
+            padding: 0;
+        }
+
+        #content {
+            padding: 0px;
+            width: 100% !important;
+            margin-top: 0px;
+            margin-left: 0px ;
+        }
+
+        /* removes default styling for home banner tagline */
+        #HQ_page p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 100;
+            color: #000;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        /* removes small extra margin at very bottom below footer */
+        p {
+            margin: 0;
+        }
+
+        /* removes bullets from Toolkit dropdown menu */
+        ul {
+            list-style-image: none;
+        }
+
+    </style>
+    <title>Team:Cornell - 2019.igem.org</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/grids.css">
+    <!-- JS -->
+    <script src="http://2019.igem.org/Team:Cornell/jquerymin?action=raw&ctype=text/javascript"></script>
+</head>
+<!--NOTE: REMEMBER TO CHANCE active-page CLASS TO CORRECT DROPDOWN-->
+<body>
+    <div class ="standard-page-wrapper">
+        <!------------------------ NAV BAR START ------------------------>
+        <nav>
+            <div class="nav-bar-wrapper">
+                <div class="nav-bar-logo">
+                        <a href="http://2019.igem.org/Team:Cornell"><img src="images/logo.png" alt="reHAB"></a>
+                </div>
+                <div class="nav-bar-main-menu">
+                    <div class="dropdown">
+                        <button class="dropbtn">TEAM</button>
+                        <div class="dropdown-content team-dropdown-content">
+                            <a href="http://2019.igem.org/Team:Cornell/Team">BIOS</a>
+                            <a href="http://2019.igem.org/Team:Cornell/Sponsors">SPONSORS</a>
+                            <a href="http://2019.igem.org/Team:Cornell/Attributions">ATTRIBUTIONS</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">OUTREACH</button>
+                        <div class="dropdown-content outreach-dropdown-content">
+                            <a href="https://2019.igem.org/Team:Cornell/EducationAndEngagement">EDUCATION & ENGAGEMENT</a>
+                            <a href="https://2019.igem.org/Team:Cornell/Collaborations">COLLABORATIONS</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">HUMAN PRACTICES</button>
+                        <div class="dropdown-content human-dropdown-content">
+                            <a href="https://2019.igem.org/Team:Cornell/IntegratedPractices">INTEGRATED PRACTICES</a>
+                            <a href="https://2019.igem.org/Team:Cornell/Policies">POLICIES</a>
+                            <a href="https://2019.igem.org/Team:Cornell/Entrepreneurship">ENTREPRENEURSHIP</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn"
+                            onclick="location.href='http://2019.igem.org/Team:Cornell/Model'">MODELING</button>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">TOOLKIT</button>
+                        <div class="dropdown-content toolkit-dropdown-content">
+                            <ul>
+                                <div class="nav-first-col">
+                                    <li class="wet-lab-list-title"><b>WET LAB</b></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Foundations">FOUNDATIONS</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Demonstrate">DEMONSTRATE</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Parts">PARTS</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/BasicParts">BASIC PARTS</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/CompositeParts">COMPOSITE PARTS</a></li>
+                                </div>
+                                <div class="nav-second-col">
+                                    <li class="pd-list-title"><b>DESIGN</b></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/DesignProcess">DESIGN PROCESS</a></li>
+                                </div>
+                                <div class="nav-third-col">
+                                    <li class="doc-list-title"><b>DOCUMENTATION</b></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Notebook">NOTEBOOK</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Safety">SAFETY</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn"
+                            onclick="location.href='http://2019.igem.org/Team:Cornell/Description'">ABOUT</button>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn active-page"
+                            onclick="location.href='http://2019.igem.org/Team:Cornell'">HOME</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!------------------------ NAV BAR END ------------------------>
+        <!------------------------ STANDARD PAGE BANNER START ------------------------>
+        <header class="standard-page-banner">
+            <svg viewBox="0 0 100 100" width=100% height=100%>
+                <circle cx="50" cy="50" r="40" fill="white" fill-opacity="0.4"/>
+                <text text-anchor="middle" alignment-baseline="middle" x=50% y=50%>Design Process</text>
+            </svg>
+        </header>
+        <!------------------------ STANDARD PAGE BANNER END ------------------------>
+        <!------------------------ STANDARD PAGE SIDE BAR + CONTENT START ------------------------>
+        <div class="standard-page-side-bar-content-wrapper">
+            <!------------------------ STANDARD PAGE SIDE BAR START ------------------------>
+            <div class="standard-page-side-bar-wrapper">
+                <ul class="standard-page-side-bar">
+                    <li><a href="#pageheading1">Overview</a></li>
+                    <li><a href="#pageheading2">Component A</a></li>
+                    <li><a href="#pageheading3">Fabrication A</a></li>
+                    <li><a href="#pageheading4">Component B</a></li>
+                    <li><a href="#pageheading5">Fabrication B</a></li>
+                </ul>
+            </div>
+            <!------------------------ STANDARD PAGE SIDE BAR END ------------------------>
+            <!------------------------ STANDARD PAGE CONTENT START ------------------------>
+            <div class="standard-page-content-wrapper">
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading1">Overview</div></div>
+                    <hr class="green-accent-line-left">
+                    <br>
+                    <br>
+                    <br>
+                    <p class="standard-page-content-text">
+                      The hardware component of this interdisciplinary project uses various engineering principles. We started by consulting researchers and research papers to find issues that we can solve in relation to harmful algae blooms. We found many issues, but after weeks of feedback from people around the community, we locked into something that can be applied to not only our project, but also to other researchers. Our team started with a rigorous prototyping process and moved to an iterative design process until we got to the complete product. All the while, we had one major goal in mind—to create an integrated system that can be inexpensive and usable by anyone and everyone.
+<br>
+<br>
+Cornell iGEM’s reHAB simplifies data collection and provides a way to use data insightfully. Our system is composed of hardware components and biological components. Our integrated system begins with HabCab. It is an automated inexpensive sampler which will collect samples in water along with storing the GPS location of the sample collected. Next, once we find out that the water contains microcystin toxins, we can  utilize the HabLab, a bioreactor that utilizes a flow dispersion nozzle to optimize the flow of water through a microcystin-removing array of alginate beads. Our wet lab team designed the bacteria responsible for the breaking down of microcystins which are locked safely inside each alginate bead. To look at our final system, click here.
+<br>
+                    </p>
+                    <img class="standard-page-content-image" src="">
+                </div>
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading2">Component A</div></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-subheading">Sampler</div>
+                    <p class="standard-page-content-text">
+                      <br>
+                      Our sampling system consists of one vacuum pump connected to a solenoid valve array which regulate water inflow of each sample through plastic tubing. This apparatus can be placed on any aquatic vehicle, and in our case we built a small boat. The gps module on top of the boat coordinates the movement of the boat, the vacuum pump, and solenoid. Once we arrive at each location, an unused tube’s solenoid valve opens. An arduino controls the entire process.The vacuum pump transfers the water through the open valve into the test tube to complete a sample collection. After 8 seconds, the pump turns off and the valve closes. This specific valve remains closed for the duration of the trip. The number of seconds that we keep the pump on for and valve open for was determined through trial and error to determine how long it would take the test tube to fill up without overflowing.
+<br><br>
+By using one pump for all of the samples, we sped up the design process and made it much cheaper to build. However, contamination became a much bigger problem. Because of this, in order to use different tubes all connected to the same pump and only have one fill with water at a time, we incorporated the solenoid valves into our design.
+<br><br>
+**ADD IMAGE**
+                    </p>
+                    <img class="standard-page-content-image" src="">
+                </div>
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading3">Fabrication A</div></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-subheading">Sampler</div>
+                    <p class="standard-page-content-text">
+                      <br>
+                      We modeled a prototype of the sampler vessel in Fusion 360 before fabrication. We then constructed the vessel by laser-cutting acrylic sheets and connecting the pieces with a solvent weld. We chose the method of laser-cutting because it is precise and can cut the acrylic sheet material with ease. The solvent welding method was extremely effective in creating strong, waterproof joints in the boat, which are necessary to prevent leaking. We also 3D modeled and printed a holder for the sample collection device using ABS plastic.  We chose this additive manufacturing technique over a subtractive technique due to its accessibility and low cost of materials. Since the holder is not under considerable stress, the ABS plastic material is sufficiently strong.
+</p>
+                    <img class="standard-page-content-image" src="">
+                </div>
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading4">Component B</div></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-subheading">Bioreactor</div>
+                    <p class="standard-page-content-text">
+                      <br>
+                      The bioreactor consists of two sizes of inert tubing ¼ inch radius and ½ inch radius, flow distribution nozzles, 2 filters and a syringe.  The water sample to be cleaned starts in the syringe and is pressed through the ¼ inch into the main compartment of the bioreactor. The main compartment consists of the ½ inch tubing filled with our alginate bead encapsulated bacteria. The water continues moving through, interacting with the bacteria so that the toxin breaks down, and then exits the system fully cleaned on the other side.  Inert tubing was chosen in order to prevent chemical reactions with the microcystins or any other molecules in the water.  Filters were included on both ends of the bioreactor in order to ensure that bacteria did not travel outside of the reaction vessel, even if they somehow escaped the alginate beads.  Nozzles were included in order to evenly spread out the flow from the small tube coming from the syringe to the large reaction vessel tube. We designed the nozzles using Autodesk Inventor and then 3D printed them in our lab.
+</p>
+                    <img class="standard-page-content-image" src="">
+                </div>
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading5">Fabrication B</div></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-subheading">Bioreactor</div>
+                    <p class="standard-page-content-text">
+                      <br>
+                      We used a MakerBot Pro to 3D print the bioreactor nozzles out of ABS plastic. This method was the simplest way to produce the small and intricate parts. A subtractive manufacturing method wouldn’t have been able to accurately produce the interior chambers necessary in the design of the nozzle. The tight 3D printer tolerances resulted in fully watertight pieces.
+</p>
+                    <img class="standard-page-content-image" src="">
+                </div>
+            </div>
+            <!------------------------ STANDARD PAGE CONTENT END ------------------------>
+        </div>
+        <!------------------------ STANDARD PAGE SIDE BAR + CONTENT END ------------------------>
+        <!------------------------ FOOTER START ------------------------>
+        <footer>
+            <div class="footer-wrapper">
+                <div class="icon-wrapper">
+                    <a class="icon" href="http://facebook.com/cornelligem"><img src="https://2019.igem.org/wiki/images/4/44/T--Cornell--Facebook.png"></a>
+                </div>
+                <div class="icon-wrapper">
+                    <a class="icon" href="http://twitter.com/cugem"><img src="https://2019.igem.org/wiki/images/8/80/T--Cornell--Twitter.png"></a>
+                </div>
+                <div class="icon-wrapper">
+                    <a class="icon" href="https://www.instagram.com/cugem/"><img src="https://2019.igem.org/wiki/images/3/37/T--Cornell--Instagram.png"></a>
+                </div>
+                <div class="icon-wrapper icon-wrapper-last">
+                    <a class="icon" href="https://www.youtube.com/channel/UCJt-5JfyoucUJXC1EsTllhg"><img src="https://2019.igem.org/wiki/images/3/3c/T--Cornell--Youtube.png"></a>
+                </div>
+            </div>
+        </footer>
+        <!------------------------ FOOTER END ------------------------>
+    </div>
+</body>
+
+</html>

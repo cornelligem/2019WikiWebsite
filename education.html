@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+        /* hides "Team:Cornell" and iGEM logo */
+        #top_title {
+            display: none;
+        }
+
+        /* removes padding below footer */
+        #globalWrapper {
+            padding: 0;
+        }
+
+        #content {
+            padding: 0px;
+            width: 100% !important;
+            margin-top: 0px;
+            margin-left: 0px ;
+        }
+
+        /* removes default styling for home banner tagline */
+        #HQ_page p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 100;
+            color: #000;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        /* removes small extra margin at very bottom below footer */
+        p {
+            margin: 0;
+        }
+
+        /* removes bullets from Toolkit dropdown menu */
+        ul {
+            list-style-image: none;
+        }
+
+    </style>
+    <title>Team:Cornell - 2019.igem.org</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/grids.css">
+    <!-- JS -->
+    <script src="http://2019.igem.org/Team:Cornell/jquerymin?action=raw&ctype=text/javascript"></script>
+</head>
+<!--NOTE: REMEMBER TO CHANCE active-page CLASS TO CORRECT DROPDOWN-->
+<body>
+    <div class ="standard-page-wrapper">
+        <!------------------------ NAV BAR START ------------------------>
+        <nav>
+            <div class="nav-bar-wrapper">
+                <div class="nav-bar-logo">
+                        <a href="http://2019.igem.org/Team:Cornell"><img src="images/logo.png" alt="reHAB"></a>
+                </div>
+                <div class="nav-bar-main-menu">
+                    <div class="dropdown">
+                        <button class="dropbtn">TEAM</button>
+                        <div class="dropdown-content team-dropdown-content">
+                            <a href="http://2019.igem.org/Team:Cornell/Team">BIOS</a>
+                            <a href="http://2019.igem.org/Team:Cornell/Sponsors">SPONSORS</a>
+                            <a href="http://2019.igem.org/Team:Cornell/Attributions">ATTRIBUTIONS</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">OUTREACH</button>
+                        <div class="dropdown-content outreach-dropdown-content">
+                            <a href="https://2019.igem.org/Team:Cornell/EducationAndEngagement">EDUCATION & ENGAGEMENT</a>
+                            <a href="https://2019.igem.org/Team:Cornell/Collaborations">COLLABORATIONS</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">HUMAN PRACTICES</button>
+                        <div class="dropdown-content human-dropdown-content">
+                            <a href="https://2019.igem.org/Team:Cornell/IntegratedPractices">INTEGRATED PRACTICES</a>
+                            <a href="https://2019.igem.org/Team:Cornell/Policies">POLICIES</a>
+                            <a href="https://2019.igem.org/Team:Cornell/Entrepreneurship">ENTREPRENEURSHIP</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn"
+                            onclick="location.href='http://2019.igem.org/Team:Cornell/Model'">MODELING</button>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">TOOLKIT</button>
+                        <div class="dropdown-content toolkit-dropdown-content">
+                            <ul>
+                                <div class="nav-first-col">
+                                    <li class="wet-lab-list-title"><b>WET LAB</b></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Foundations">FOUNDATIONS</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Demonstrate">DEMONSTRATE</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Parts">PARTS</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/BasicParts">BASIC PARTS</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/CompositeParts">COMPOSITE PARTS</a></li>
+                                </div>
+                                <div class="nav-second-col">
+                                    <li class="pd-list-title"><b>DESIGN</b></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/DesignProcess">DESIGN PROCESS</a></li>
+                                </div>
+                                <div class="nav-third-col">
+                                    <li class="doc-list-title"><b>DOCUMENTATION</b></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Notebook">NOTEBOOK</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Safety">SAFETY</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn"
+                            onclick="location.href='http://2019.igem.org/Team:Cornell/Description'">ABOUT</button>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn active-page"
+                            onclick="location.href='http://2019.igem.org/Team:Cornell'">HOME</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!------------------------ NAV BAR END ------------------------>
+        <!------------------------ STANDARD PAGE BANNER START ------------------------>
+        <header class="standard-page-banner">
+            <svg viewBox="0 0 100 100" width=100% height=100%>
+                <circle cx="50" cy="50" r="40" fill="white" fill-opacity="0.4"/>
+                <text text-anchor="middle" alignment-baseline="middle" x=50% y=50%>Education & Engagement</text>
+            </svg>
+        </header>
+        <!------------------------ STANDARD PAGE BANNER END ------------------------>
+        <!------------------------ STANDARD PAGE SIDE BAR + CONTENT START ------------------------>
+        <div class="standard-page-side-bar-content-wrapper">
+            <!------------------------ STANDARD PAGE SIDE BAR START ------------------------>
+            <div class="standard-page-side-bar-wrapper">
+                <ul class="standard-page-side-bar">
+                    <li><a href="#pageheading1">Overview</a></li>
+                    <li><a href="#pageheading2">YOURS</a></li>
+                    <li><a href="#pageheading3">Aptagen Seminar</a></li>
+                    <li><a href="#pageheading4">Raw Expo</a></li>
+                    <li><a href="#pageheading5">Splash!</a></li>
+                    <li><a href="#pageheading6">4-H Careers Exploration</a></li>
+                    <li><a href="#pageheading7">New York State Fair</a></li>
+                    <li><a href="#pageheading8">Alliance for Science</a></li>
+                    <li><a href="#pageheading9">Social Media</a></li>
+                    <li><a href="#pageheading10">Knowledge Collaboration</a></li>
+                </ul>
+            </div>
+            <!------------------------ STANDARD PAGE SIDE BAR END ------------------------>
+            <!------------------------ STANDARD PAGE CONTENT START ------------------------>
+            <div class="standard-page-content-wrapper">
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading1">Overview</div></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-subheading">Our Approach</div>
+                    <p class="standard-page-content-text">
+                        Engaging with the public and learning from the community is just as important as learning
+                         about a topic through scientific literature. Through engaging with various community 
+                         leaders and organizations, we learned about how we can use synthetic biology to solve 
+                         local problems here in Ithaca, New York. We participated in various campus events, workshops, 
+                         and community outreach initiatives with the goal of encouraging discussions and spreading 
+                         awareness of the applications of synthetic biology in people’s everyday lives. 
+                    </p>
+                    <div class="standard-page-content-subheading">Key Takeaways</div>
+                    <ul class="standard-page-content-text">
+                        <li>
+                            Interactive activities, such as pipetting and interacting with mock gels, helped us to 
+                            engage younger students in learning complex processes, such as gel electrophoresis.
+                        </li>
+                        <li>
+                            Events such as 4-H and Splash! continued to inspire us with the excitement of the youth 
+                            for synthetic biology and its applications in their lives. 
+                        </li>
+                        <li>
+                            Novel methods of detection are being created and researched every day. Through the 
+                            Aptagen Seminar talk, we were able to provide an opportunity not only for the Cornell 
+                            community to learn more about one avenue of synthetic biology but also for ourselves to 
+                            learn more about the possible applications of aptamers, a key component of our 2019 project.
+                        </li>
+                    </ul>
+                </div>
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading2">YOURS</div></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-date">March 26th, 2019</div>
+                    <p class="standard-page-content-text">
+                        As part of the volunteer activity with YOURS, we prepared two experiments to spark the 
+                        scientific interest of elementary school students. One was the classic Mentos and Coke 
+                        experiment, and the other was making homemade ice cream. The children were very energetic 
+                        and enthusiastic about the activities. For the Mentos experiment, they were eager to drop 
+                        the Mentos into the Coke bottle to set off the reaction. During the ice-cream-making process, 
+                        the children worked through each step on their own with some guidance from our team members. 
+                        We explained why the experiments worked, such as how the outer surface of the Mentos caused 
+                        the carbonated soda to explode out of the bottle. This experience allowed us to teach the 
+                        students about some of the neat ways in which science works around us.
+                    </p>
+                </div>
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading3">Aptagen Seminar with Dr. G. Thomas Caltagirone</div></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-date">April 11th, 2019</div>
+                    <p class="standard-page-content-text">
+                        Aptagen is a synthetic biology company that specializes in detection methods using aptamers.
+                         On April 11th, Cornell iGEM collaborated with the Biomedical Engineering Society to host 
+                         Dr. G. Thomas Caltagirone, President and CEO of Aptagen, for a public seminar talk on the 
+                         use of aptamers in cutting-edge technology. Aptamers are short DNA and RNA molecules that 
+                         can selectively bind to small molecules such as peptides, proteins, biomarkers, cells, and 
+                         tissues. Once an aptamer has bound to a target molecule, labels such as fluorescent tags, 
+                         enzymes, or reporters allow for the detection of the target molecule. Some of the advantages 
+                         of using aptamers over antibodies, which are used in ELISAs, include lower manufacturing costs 
+                         and detection time. During his talk, Dr. Caltagirone introduced us to some of the defining 
+                         technologies developed by Aptagen, such as the Aptabecon, a novel idea that eliminates the 
+                         need for an assay to detect the fluorescence produced by an aptamer. We were pleased to be 
+                         able to share this experience with other members of the Cornell community, and we learned a 
+                         lot about the neat applications of aptamers in synthetic biology. Through this event, our 
+                         team gained some additional inspiration for our 2019 project, which uses an RNA aptamer to 
+                         detect the presence of microcystins in lakewater samples.
+                    </p>
+                    <img class="standard-page-content-image" src="images/adptagen.png" width=500>
+                </div>
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading4">Raw Expo 2019</div></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-date">April 26th, 2019</div>
+                    <p class="standard-page-content-text">
+                        Medium Design Collective hosted the fifth annual Raw Expo event at Cornell University 
+                        in late April. Cornell iGEM participated in the event by showcasing our past projects 
+                        and preparing an interactive activity for event-goers. The event’s theme explored the 
+                        incorporation of sensory observations and exchanges in the work produced by each group 
+                        and how each project is interconnected with others and the world around us. Our team 
+                        was able to explain the various ways we connect with, learn from, and give back to the 
+                        community through our public outreach initiatives and integrated human practices component 
+                        of each project. During our conversations, we also addressed any misconceptions of 
+                        synthetic biology that people may have had and helped them to understand the steps 
+                        involved in the iGEM process.
+                    </p>
+                </div>
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading5">Splash!</div></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-date">April 27th, 2019</div>
+                    <p class="standard-page-content-text">
+                        Splash! is an annual event at Cornell University where middle school and high school 
+                        students can sign up to attend different workshops taught by Cornell groups and 
+                        organizations. This year, our team hosted a workshop to teach the students about 
+                        synthetic biology. There were three stations: strawberry DNA extraction, gel 
+                        electrophoresis, and bioethics. During the one-hour session, three groups of students 
+                        would take turns at each station. Before starting, we would explain what synthetic biology 
+                        is and how it differs from genetic engineering. The DNA extraction and gel electrophoresis 
+                        stations provided opportunities for students to get hands-on experience extracting DNA 
+                        from store-bought strawberries and learning to pipette small amounts of liquid using a 
+                        micropipette. Each station included a mini-lecture to teach students about the science 
+                        behind each activity. At the bioethics station, the three case studies we prepared 
+                        addressed central issues in synthetic biology, and students had a chance to consider 
+                        various directions of technological advancement and to debate amongst themselves. 
+                        Splash! provided us with a great opportunity to connect with students and to share 
+                        with them our passion for synthetic biology.
+                    </p>
+                    <img class="standard-page-content-image" src="images/splash.JPG" width=500>
+                </div>
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading6">4-H Careers Exploration</div></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-date">June 26th - 27th, 2019</div>
+                    <img class="standard-page-content-image" src="images/4H-1.jpeg" width=500>
+                    <p class="standard-page-content-text">
+                        4-H Careers Exploration is an annual event hosted on Cornell’s campus that provides 
+                        middle school students with an opportunity to explore various fields and careers. 
+                        Cornell iGEM participated in this event by hosting six University U sessions in late 
+                        June. Together with the students, we explored the foundational concepts of DNA 
+                        extraction, gel electrophoresis, and bioethics through three stations with hands-on 
+                        activities and small-group discussions to encourage participation and dialogue.
+                    </p>
+                    <p class="standard-page-content-text">
+                        At the DNA extraction station, each student was given a strawberry to pulverize for 
+                        extracting its DNA. Our team members explained the purpose of each step of the process 
+                        working towards the extraction of strawberry DNA, so the kids were able to understand 
+                        why they were adding dish soap and isopropyl alcohol to the strawberry liquid. From 
+                        this point, we drew parallels between the protocols used in wet lab work to the extraction 
+                        they just accomplished with everyday household materials.
+                    </p>
+                    <p class="standard-page-content-text">
+                        At the gel electrophoresis station, we discussed the purpose and process of performing 
+                        gel electrophoresis in the lab before showing them how to properly use a micropipette. 
+                        We then had each kid try pipetting a small amount of juice into an agarose gel. 
+                    </p>
+                    <p class="standard-page-content-text">
+                        For the bioethics activity, we prepared three case studies that examined issues relevant 
+                        and urgent to the synthetic biology community. Our goal with this station was to open 
+                        discussions to address any misconceptions and answer any questions the students might 
+                        have about synthetic biology. The students were very receptive to the prompts and brought 
+                        up key points that at times were even overlooked by the case studies. It was also 
+                        encouraging to see some of the adults who were supervising the students during the event 
+                        participate in the conversations to share their multi-generational perspectives and 
+                        understandings of how synthetic biology impacts the greater community.
+                    </p>
+                    <img class="standard-page-content-image" src="images/4H-2.jpeg" width=500>
+                    <p class="standard-page-content-text">
+                        We wrapped up each session with a Kahoot quiz, which is an interactive online quiz that 
+                        students can participate in using their mobile devices, to review the concepts taught 
+                        at each station. The Kahoot was a huge success since many students were already familiar 
+                        with this popular teaching tool that allows students to partake in a friendly competition 
+                        to see who knows the most about the quiz topics. In our case, the Kahoot provided an 
+                        additional incentive for the students to pay close attention during the mini-lessons at 
+                        each station where members of our iGEM team explained the science behind our prepared 
+                        activities. Through the 4-H Careers Exploration event, we were able to spark conversations 
+                        about different career options in the field of synthetic biology and get the students 
+                        excited about its endless possibilities.
+                    </p>
+                    <img class="standard-page-content-image" src="images/4H-3.jpeg" width=500>
+                </div>
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading7">New York State Fair</div></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-date">September 2nd, 2019</div>
+                    <img class="standard-page-content-image" src="images/fair-1.jpeg" width=500>
+                    <p class="standard-page-content-text">
+                        Our team traveled to the New York State Fair at Syracuse on September 2nd to host an 
+                        educational booth as part of the 4H organization. We designed fun activities to inspire 
+                        children about the possibilities of genetic engineering. We prepared an educational kit 
+                        where kids could design cells to make synthetic blood or even cure cancer. Many children 
+                        who came were genuinely interested in science but lacked information about synthetic biology. 
+                        By allowing the kids to design their own cells, they became the scientists while we were 
+                        merely the helpers.  Many children showed great interest in the designing process and expressed 
+                        intrigue in becoming a scientist and actually designing the cells in the lab. Through this 
+                        experience, we were able to introduce synthetic biology and spark curiosity about science.
+                    </p>
+                    <img class="standard-page-content-image" src="images/fair-2.jpeg" width=500>
+                </div>
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading8">Alliance for Science</div></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-date">September 26th, 2019</div>
+                    <p class="standard-page-content-text">
+                        On September 26th, Cornell iGEM was invited to host a discussion about synthetic biology in 
+                        an event organized by Cornell Alliance for Science, which is an organization interested in 
+                        promoting scientific innovation for food security and environmental sustainability. We started 
+                        by briefly introducing our team and our past projects on synthetic biology. Although the 
+                        majority of the members were not familiar with synthetic biology, they were deeply interested i
+                        n the definition of synthetic biology and its difference from genetic engineering. Many of 
+                        them shared their opinion on the development of synthetic biology and the ethical concerns 
+                        they have about manipulating biological systems.
+                    </p>
+                    <p class="standard-page-content-text">
+                        Afterwards, we introduced three case scenarios to them. The scenarios were hypothetical situations 
+                        that explored the impact of advances in synthetic biology on various aspects of society. The group 
+                        discussed how we should cope with these issues in real life instead of trying to decide who is 
+                        right or wrong. Some group members were legal experts, and they shared their assessment of conflicting 
+                        situations based on current legislation. One of the case scenarios dealt with the property dispute 
+                        over genetically modified crops between the farmers and companies that developed the crops. Many 
+                        individuals brought up the current legislation on GMOs and discussed the importance of assigning 
+                        ownership in the contract.
+                    </p>
+                    <p class="standard-page-content-text">
+                        Overall, the members of Alliance for Science were interested in learning about the potential of 
+                        synthetic biology and wanted to know more about our projects. Through the discussion with Cornell 
+                        Alliance for Science, our team was able to connect with people interested in synthetic biology 
+                        and encourage them to consider the bioethics of applying the technology to society.
+                    </p>
+                </div>
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading9">Social Media Outreach</div></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-subheading"></div>
+                    <p class="standard-page-content-text">
+                        To engage with the general public through social media, we decided to publish weekly Member 
+                        Spotlights to highlight the diversity within our members in both their professional and personal 
+                        interests. Despite ranging in majors from Biological Sciences to Computer Science, we were all 
+                        tied together by our shared interest in synthetic biology and its applications. In addition to 
+                        promoting our members, the Member Spotlights were used to publicize a variety of events that our 
+                        group hosted, such as the Aptagen Seminar Talk, and to recap events, such as the 4-H Careers 
+                        Exploration event, to share our multi-faceted approach to connecting with the community.
+                    </p>
+                </div>
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading10">Knowledge Collaboration</div></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-subheading"></div>
+                    <p class="standard-page-content-text">
+                        We have been working on a knowledge collaboration with two highschool students, Darlsy and Kim. 
+                        Darlsy wanted to make a booklet that can be distributed in Africa to spread awareness of 
+                        biotechnology. We have helped her collect sources for the booklet, and currently are  helping 
+                        her design the layout of the booklet. Kim is working on a project to extract AB15, the gene 
+                        responsible for producing abscisic acid, a plant hormone responsible for allowing increased stomatal 
+                        conductivity in extreme survival conditions. Her project involves genetically engineering crops 
+                        with the AB15 gene to become drought tolerant, and we have been helping her with the DNA extraction 
+                        process. Because she was unfamiliar with the process of isolating DNA, we tried to explain wet lab 
+                        techniques used in DNA extraction. We introduced CRISPR-Cas9 and homologous recombination. Due to 
+                        limited access to the restriction enzymes used in CRISPR, we recommended that she  use homologous 
+                        recombination instead. Kim is currently working on the DNA isolation process, and we are consulted 
+                        whenever she encounters technical problems. Through the two collaborations, we have provided 
+                        resources and practical guidance for students working on projects in synthetic biology. 
+                    </p>
+                </div>
+            </div>
+            <!------------------------ STANDARD PAGE CONTENT END ------------------------>
+        </div>
+        <!------------------------ STANDARD PAGE SIDE BAR + CONTENT END ------------------------>
+        <!------------------------ FOOTER START ------------------------>
+        <footer>
+            <div class="footer-wrapper">
+                <div class="icon-wrapper">
+                    <a class="icon" href="http://facebook.com/cornelligem"><img src="https://2019.igem.org/wiki/images/4/44/T--Cornell--Facebook.png"></a>
+                </div>
+                <div class="icon-wrapper">
+                    <a class="icon" href="http://twitter.com/cugem"><img src="https://2019.igem.org/wiki/images/8/80/T--Cornell--Twitter.png"></a>
+                </div>
+                <div class="icon-wrapper">
+                    <a class="icon" href="https://www.instagram.com/cugem/"><img src="https://2019.igem.org/wiki/images/3/37/T--Cornell--Instagram.png"></a>
+                </div>
+                <div class="icon-wrapper icon-wrapper-last">
+                    <a class="icon" href="https://www.youtube.com/channel/UCJt-5JfyoucUJXC1EsTllhg"><img src="https://2019.igem.org/wiki/images/3/3c/T--Cornell--Youtube.png"></a>
+                </div>
+            </div>
+        </footer>
+        <!------------------------ FOOTER END ------------------------>
+    </div>
+</body>
+
+</html>

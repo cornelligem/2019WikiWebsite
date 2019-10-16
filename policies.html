@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+        /* hides "Team:Cornell" and iGEM logo */
+        #top_title {
+            display: none;
+        }
+
+        /* removes padding below footer */
+        #globalWrapper {
+            padding: 0;
+        }
+
+        #content {
+            padding: 0px;
+            width: 100% !important;
+            margin-top: 0px;
+            margin-left: 0px ;
+        }
+
+        /* removes default styling for home banner tagline */
+        #HQ_page p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 100;
+            color: #000;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        /* removes small extra margin at very bottom below footer */
+        p {
+            margin: 0;
+        }
+
+        /* removes bullets from Toolkit dropdown menu */
+        ul {
+            list-style-image: none;
+        }
+
+    </style>
+    <title>Team:Cornell - 2019.igem.org</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/grids.css">
+    <!-- JS -->
+    <script src="http://2019.igem.org/Team:Cornell/jquerymin?action=raw&ctype=text/javascript"></script>
+</head>
+<!--NOTE: REMEMBER TO CHANCE active-page CLASS TO CORRECT DROPDOWN-->
+<body>
+    <div class ="standard-page-wrapper">
+        <!------------------------ NAV BAR START ------------------------>
+        <nav>
+            <div class="nav-bar-wrapper">
+                <div class="nav-bar-logo">
+                        <a href="http://2019.igem.org/Team:Cornell"><img src="images/logo.png" alt="reHAB"></a>
+                </div>
+                <div class="nav-bar-main-menu">
+                    <div class="dropdown">
+                        <button class="dropbtn">TEAM</button>
+                        <div class="dropdown-content team-dropdown-content">
+                            <a href="http://2019.igem.org/Team:Cornell/Team">BIOS</a>
+                            <a href="http://2019.igem.org/Team:Cornell/Sponsors">SPONSORS</a>
+                            <a href="http://2019.igem.org/Team:Cornell/Attributions">ATTRIBUTIONS</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">OUTREACH</button>
+                        <div class="dropdown-content outreach-dropdown-content">
+                            <a href="https://2019.igem.org/Team:Cornell/EducationAndEngagement">EDUCATION & ENGAGEMENT</a>
+                            <a href="https://2019.igem.org/Team:Cornell/Collaborations">COLLABORATIONS</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">HUMAN PRACTICES</button>
+                        <div class="dropdown-content human-dropdown-content">
+                            <a href="https://2019.igem.org/Team:Cornell/IntegratedPractices">INTEGRATED PRACTICES</a>
+                            <a href="https://2019.igem.org/Team:Cornell/Policies">POLICIES</a>
+                            <a href="https://2019.igem.org/Team:Cornell/Entrepreneurship">ENTREPRENEURSHIP</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn"
+                            onclick="location.href='http://2019.igem.org/Team:Cornell/Model'">MODELING</button>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">TOOLKIT</button>
+                        <div class="dropdown-content toolkit-dropdown-content">
+                            <ul>
+                                <div class="nav-first-col">
+                                    <li class="wet-lab-list-title"><b>WET LAB</b></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Foundations">FOUNDATIONS</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Demonstrate">DEMONSTRATE</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Parts">PARTS</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/BasicParts">BASIC PARTS</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/CompositeParts">COMPOSITE PARTS</a></li>
+                                </div>
+                                <div class="nav-second-col">
+                                    <li class="pd-list-title"><b>DESIGN</b></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/DesignProcess">DESIGN PROCESS</a></li>
+                                </div>
+                                <div class="nav-third-col">
+                                    <li class="doc-list-title"><b>DOCUMENTATION</b></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Notebook">NOTEBOOK</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Safety">SAFETY</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn"
+                            onclick="location.href='http://2019.igem.org/Team:Cornell/Description'">ABOUT</button>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn active-page"
+                            onclick="location.href='http://2019.igem.org/Team:Cornell'">HOME</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!------------------------ NAV BAR END ------------------------>
+        <!------------------------ STANDARD PAGE BANNER START ------------------------>
+        <header class="standard-page-banner">
+            <svg viewBox="0 0 100 100" width=100% height=100%>
+                <circle cx="50" cy="50" r="40" fill="white" fill-opacity="0.4"/>
+                <text text-anchor="middle" alignment-baseline="middle" x=50% y=50%>Policies</text>
+            </svg>
+        </header>
+        <!------------------------ STANDARD PAGE BANNER END ------------------------>
+        <!------------------------ STANDARD PAGE SIDE BAR + CONTENT START ------------------------>
+        <div class="standard-page-side-bar-content-wrapper">
+            <!------------------------ STANDARD PAGE SIDE BAR START ------------------------>
+            <div class="standard-page-side-bar-wrapper">
+                <ul class="standard-page-side-bar">
+                    <li><a href="#pageheading1">Overview</a></li>
+                    <li><a href="#pageheading2">Law & Regulation</a></li>
+                    <li><a href="#pageheading3">CEA</a></li>
+                    <li><a href="#pageheading4">Economic Analysis</a></li>
+                </ul>
+            </div>
+            <!------------------------ STANDARD PAGE SIDE BAR END ------------------------>
+            <!------------------------ STANDARD PAGE CONTENT START ------------------------>
+            <div class="standard-page-content-wrapper">
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading1">Overview</div></div>
+                    <hr class="green-accent-line-left">
+                    <img class="standard-page-content-image" src="images/policies.jpeg" width=500>
+                    <div class="standard-page-content-subheading">Our Approach</div>
+                    <p class="standard-page-content-text">
+                        Everybody advocates for clean drinking water and pristine lakes, but not everybody would 
+                        be comfortable using synthetic biology to achieve these goals. Our team examined the current 
+                        legislation in place to control and define safe levels of microcystins, especially in New York, 
+                        to set parameters for our bio-reactor and boat. To expand upon our knowledge, we interviewed 
+                        local legislators to hear firsthand the new laws and policies being created in response to 
+                        increased HAB appearances in recent years due to climate change. Additionally, we interviewed 
+                        experts in marine biology and freshwater systems, as well as volunteers on the frontlines 
+                        combating the effects of HABs in the Finger Lake region, to ensure we have a comprehensive 
+                        understanding of the situation so we can harness the full potential of our proposed system.
+                    </p>
+                    <div class="standard-page-content-subheading">Key Takeaways</div>
+                    <ul class="standard-page-content-text">
+                        <li>
+                            Legislation on HABs have been in place for years, but recently, the interest in HABs has 
+                            increased substantially. Legislative proposals are being considered to address the increase 
+                            in HAB occurrences, especially around the Cayuga Lake region.
+                        </li>
+                        <li>
+                            Although current methods of prevention and treatment are sufficiently effective, they are 
+                            also costly and time-consuming. New systems to detect and breakdown microcystins would improve 
+                            both safety and cost-effectiveness. 
+                        </li>
+                        <li>
+                            HABs are dangerous to humans and are of increasing concern, mainly due to climate change that 
+                            has likely contributed to more frequent appearances.
+                        </li>
+                    </ul>
+                </div>
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading2">Law & Regulation</div></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-subheading"></div>
+                    <p class="standard-page-content-text">
+                        To take reHAB to widespread use, our project needs to abide by current legislation for HAB remediation. 
+                        We first looked into the legislature on the federal level regarding water quality. The Clean Water Act 
+                        of 1972 set standards for chemical discharges from companies, but it wasn’t until 1998 that Congress 
+                        recognized the severity of harmful algal blooms and passed the Harmful Algal Bloom and Hypoxia Research 
+                        and Control Act (HABHRCA).
+                    </p>
+                    <p class="standard-page-content-text">
+                        The HABHRCA, passed in 2004 and most recently re-authorized in 2017, provides funding for the National 
+                        Oceanic and Atmospheric Administration (NOAA) to continue research on the ability to detect, monitor 
+                        and assess HABs. For this purpose, 13.5 million dollars was allocated to the NOAA, with this amount 
+                        increasing in small increments until 2023. 
+                    </p>
+                    <p class="standard-page-content-text">
+                        While these legislative acts helped us key into the current state of HAB remediation research, we found 
+                        that the primary effort for HAB remediation takes place at the state and local level. For the State of 
+                        New York, Governor Andrew Cuomo introduced a four-point initiative to combat HABs in Upstate New York. 
+                        While the initiative provides $65 million to identify, prioritize and develop action plans for vulnerable 
+                        lakes, the efforts are largely focused on the prevention and identification of blooms, whereas our project 
+                        is more concerned with the detection and remediation of blooms already in existence.
+                    </p>
+                    <p class="standard-page-content-text">
+                        Focusing on local policies here in Ithaca, our team decided to attend a public meeting of the Planning, 
+                        Energy, and Environmental Quality Committee from the Tompkins County Legislature. The meeting covered a 
+                        broad range of topics related to the environmental concerns of Tompkins County rather than focusing on HABs, 
+                        so we decided to contact Deborah Dawson, who is the Chair of the Committee. Our goal with reaching out to 
+                        Mrs. Dawson was to get a firsthand account of what sorts of limiting factors affect the initiatives that are 
+                        currently being undertaken to address the issue of HABs in the Finger Lakes region. Mrs. Dawson explained to 
+                        us how the process involved in implementing new approaches differed between the lakes based on how the area 
+                        was divided up among the neighboring counties. She mentioned that it is easier to address HABs concerns in 
+                        smaller lakes due to the fact that only a single county has to devote its resources to remediation and can 
+                        prioritize their level of concern. With larger lakes, such as Cayuga Lake, which is divided between three 
+                        counties, there must be an active collaboration initiative. This can be difficult to coordinate, as each county 
+                        may have different priorities and concerns for lake health. Mrs. Dawson’s insights pushed us to consider how to 
+                        best integrate our designs into the established network of programs and individuals involved in tackling the 
+                        issue of HABs.
+                    </p>
+                    <p class="standard-page-content-text">
+                        Overall, we learned that the majority of legislation for HABs exists at the national and state level. However, 
+                        most of this legislation is broad and geared towards research. On local levels, where there is a more central 
+                        focus on the issue, there is still a lack of comprehensive legislation, as many initiatives are still being discussed. 
+                        By working with legislators and community leaders, our team hopes to use our project to push these initiatives 
+                        forward to provide clean and safe waters for our community and the world.
+                    </p>
+                </div>
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading3">Comprehensive Environmental Assessment (CEA)</div></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-subheading">Introduction to CEA</div>
+                    <p class="standard-page-content-text">
+                        Comprehensive Environmental Assessment (CEA) is a type of risk assessment that incorporates the two traditional 
+                        assessment approaches: risk and life cycle assessment. The advantage of life cycle assessment (LCA) is in its wide 
+                        scope; it considers all steps of manufacturing, usage, and disposal or recycling of the chemical or product. 
+                        Risk assessment (RA) is advantageous in that it specifically quantifies the risk, providing a resolution through the 
+                        analysis. CEA aims to combine the strengths of both assessment techniques by providing a guideline for organizing 
+                        information from various stakes and making transparent judgements based on the input.<sup>1</sup> 
+                    </p>
+                    <p class="standard-page-content-text">
+                        This framework is currently used by the U.S. Environmental Protection Agency. As our project intends to provide a 
+                        robust solution for harmful algal blooms and therefore necessitates direct interaction with  the environment, we must 
+                        assess the long-term impacts of our project on the environment. The comprehensive environmental assessment of our 
+                        project focuses on the genetically altered bacteria <i>Escherichia coli</i> and the potential impacts the altered 
+                        bacteria may have on the environment.
+                    </p>
+                    <div class="standard-page-content-subheading">Altered Physiology</div>
+                    <p class="standard-page-content-text">
+                        Our project aims to develop <i>E. coli</i> that can degrade microcystins, a primary toxin that is produced by harmful 
+                        algal blooms. Our project involves two steps: detection of microcystins in water and remediation of said contaminated water. 
+                        The first step, detection, involves using naked RNA to sense microcystins. Our team is aiming to create an aptamer-based 
+                        sensor to recognize microcystins. The second step involves engineering the mlr cassette into <i>E. coli</i> to breakdown the 
+                        toxins. The mlr cassette is a series of six genes that gives <i>E. coli</i> the ability to degrade microcystins, including mlrA, 
+                        mlrB, mlrC, mlrD, mlrE, and mlrF that each take on different roles in breaking down the toxins. For instance, mlrD produces t
+                        he genes responsible for transporting the microcystins into the cell. To carry out the degradation more efficiently, some mlr 
+                        genes are designed to be transported to the cell’s periplasm. 
+                    </p>
+                    <div class="standard-page-content-subheading">Mode of Interaction</div>
+                    <p class="standard-page-content-text">
+                        In the event that our detection and remediation system gets integrated into drinking water treatment facilities, or is used 
+                        for instantaneous lake testing and feedback, competition and biodiversity would be the main concern regarding the modification 
+                        of <i>E. coli</i>. However, our current system isolates the bacteria from the freshwater ecosystems to avoid the risk of 
+                        horizontal gene transfer. Regardless, our team has taken steps to ensure the containment of the modified bacteria by immobilizing 
+                        them on alginate beads. Moreover, we are strategically placing filters in the inlet and outlet of the reaction chamber to ensure 
+                        that microcystins can enter the system but bacteria would not be able to get out.
+                    </p>
+                    <div class="standard-page-content-subheading">Evolutionary Prediction</div>
+                    <p class="standard-page-content-text">
+                        Since our altered genes produce proteins that give metabolic strain on themselves, there exists a low possibility that the 
+                        engineered strains would outcompete wild strains when used in a setting outside of the lab. There does exist a possibility 
+                        that the antibiotic resistant genes may be transferred to other bacterial strains. However, auxotrophy can serve as a potential 
+                        solution to eliminate such genes. Auxotrophy is the inability of a gene to synthesize organic compounds needed for growth. By 
+                        implementing auxotrophy onto the altered <i>E. coli</i>, we can decrease the possibility of the altered genes being transferred to other 
+                        bacterial strains.
+                    </p>
+                    <div class="standard-page-content-subheading">Gene Transfer</div>
+                    <p class="standard-page-content-text">
+                        Solutions, such as biocontainment techniques that isolate the bacteria from the environment, can be used to prevent horizontal gene 
+                        transfer (HGT) of antibiotic resistant genes from the mutated genes to the environment. We are approaching the problem of HGT from a 
+                        mechanical angle to implement physical barriers between the bacteria and the environment in order to prevent contamination and gene transfer. 
+                    </p>
+                </div>
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading4">Economic Analysis</div></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-subheading"></div>
+                    <p class="standard-page-content-text">
+                        Currently, there are a few steps that take place when trying to collect water samples and identify the presence of microcystins. Most 
+                        samples are collected by volunteers from local organizations, meaning collections tend to be free or inexpensive. After samples are collected,
+                         there are multiple ways to test for the presence of microcystins. The most common way is through an ELISA, which ranges from $125 to $200 
+                         dollars per sample. The most common price for a test, however, is $125 per sample. There usually is more than one sample so sending 
+                         multiple samples will be costly. 
+                    </p>
+                    <p class="standard-page-content-text">
+                        Another variable in this analysis is the uncertainty of receiving results. From our conversation with Julie Lockheart from Owasco Lake 
+                        Association, results from the samples take up to three weeks to process and analyze. By this time, microcystins clear up and the results 
+                        would not be effective in preventing damage from the toxins. Our boat serves as a replacement for volunteers and collects samples based on 
+                        areas in the lake where HABs are most common. Although the boat costs around $200, it saves time by acting as an automated sample collector 
+                        with high-resolution data capabilities. It can work throughout the day, mapping locations of blooms around the lake. The DNA aptamers with 
+                        the gold nanoparticles serve to replace ELISA kits and remove the issue of waiting for results. The gold nanoparticles cost approximately 
+                        $150 for 25 mL and the aptamer cost around $10. Our system is functional for 130 uses. This is significantly more economical than the $125 
+                        per sample charged by laboratories to test using an ELISA. 
+                    </p>
+                    <p class="standard-page-content-text">
+                        At the moment, the price of clearing microcystins ranges widely. In a report done by the American Water Works association, depending on how 
+                        long the treatment is, it could vary from $178 for 3 days of prevention and treatment to $280,000 for 3 months of prevention and treatment 
+                        of cyanotoxins. This is compared to our project, which only requires $500 to build a small scale bioreactor that can last a significantly longer time.
+                    </p>
+                    <p class="standard-page-content-text">
+                        Damage caused by microcystins varies greatly depending on the water treatment facility and the amount of time the plant was exposed to the microcystins. 
+                        One of the worst cases of cyanotoxins affecting drinking water was in Toledo, Ohio. The water plant in the city had to spend $54 million dollars on a 
+                        new treatment facility to remove contaminants like microcystins. This is, however, an extreme case, where Toledo was exposed to large amounts of microcystins 
+                        for a long period of time. Regardless, this demonstrates the damage microcystins can do to water treatment facilities. 
+                    </p>
+                    <p class="standard-page-content-text">
+                        The damage caused by microcystins can be negated by the early detection offered by the aptamer system. Treatment would also be low-cost and effective. 
+                        The bioreactor costs less than $100 taking into consideration the alginate beads, the materials to make the actual reactor, and the engineered bacteria. 
+                        The alginate beads also last several years without degrading, so replacing the alginate beads would not be costly.
+                    </p>
+                </div>
+            </div>
+            <!------------------------ STANDARD PAGE CONTENT END ------------------------>
+        </div>
+        <!------------------------ STANDARD PAGE SIDE BAR + CONTENT END ------------------------>
+        <!------------------------ FOOTER START ------------------------>
+        <footer>
+            <div class="footer-wrapper">
+                <div class="icon-wrapper">
+                    <a class="icon" href="http://facebook.com/cornelligem"><img src="https://2019.igem.org/wiki/images/4/44/T--Cornell--Facebook.png"></a>
+                </div>
+                <div class="icon-wrapper">
+                    <a class="icon" href="http://twitter.com/cugem"><img src="https://2019.igem.org/wiki/images/8/80/T--Cornell--Twitter.png"></a>
+                </div>
+                <div class="icon-wrapper">
+                    <a class="icon" href="https://www.instagram.com/cugem/"><img src="https://2019.igem.org/wiki/images/3/37/T--Cornell--Instagram.png"></a>
+                </div>
+                <div class="icon-wrapper icon-wrapper-last">
+                    <a class="icon" href="https://www.youtube.com/channel/UCJt-5JfyoucUJXC1EsTllhg"><img src="https://2019.igem.org/wiki/images/3/3c/T--Cornell--Youtube.png"></a>
+                </div>
+            </div>
+        </footer>
+        <!------------------------ FOOTER END ------------------------>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    /* hides "Team:Cornell" and iGEM logo */
+    #top_title {
+      display: none;
+    }
+
+    /* removes padding below footer */
+    #globalWrapper {
+      padding: 0;
+    }
+
+    #content {
+      padding: 0px;
+      width: 100% !important;
+      margin-top: 0px;
+      margin-left: 0px;
+    }
+
+    /* removes default styling for home banner tagline */
+    #HQ_page p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 100;
+      color: #000;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    /* removes small extra margin at very bottom below footer */
+    p {
+      margin: 0;
+    }
+
+    /* removes bullets from Toolkit dropdown menu */
+    ul {
+      list-style-image: none;
+    }
+  </style>
+  <title>Team:Cornell - 2019.igem.org</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link rel="stylesheet" type="text/css" href="styles/grids.css">
+  <!-- JS -->
+  <script src="http://2019.igem.org/Team:Cornell/jquerymin?action=raw&ctype=text/javascript"></script>
+</head>
+<!--NOTE: REMEMBER TO CHANCE active-page CLASS TO CORRECT DROPDOWN-->
+
+<body>
+  <div class="standard-page-wrapper">
+    <!------------------------ NAV BAR START ------------------------>
+    <nav>
+      <div class="nav-bar-wrapper">
+        <div class="nav-bar-logo">
+          <a href="http://2019.igem.org/Team:Cornell"><img src="images/logo.png" alt="reHAB"></a>
+        </div>
+        <div class="nav-bar-main-menu">
+          <div class="dropdown">
+            <button class="dropbtn">TEAM</button>
+            <div class="dropdown-content team-dropdown-content">
+              <a href="http://2019.igem.org/Team:Cornell/Team">BIOS</a>
+              <a href="http://2019.igem.org/Team:Cornell/Sponsors">SPONSORS</a>
+              <a href="http://2019.igem.org/Team:Cornell/Attributions">ATTRIBUTIONS</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">OUTREACH</button>
+            <div class="dropdown-content outreach-dropdown-content">
+              <a href="https://2019.igem.org/Team:Cornell/EducationAndEngagement">EDUCATION & ENGAGEMENT</a>
+              <a href="https://2019.igem.org/Team:Cornell/Collaborations">COLLABORATIONS</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">HUMAN PRACTICES</button>
+            <div class="dropdown-content human-dropdown-content">
+              <a href="https://2019.igem.org/Team:Cornell/IntegratedPractices">INTEGRATED PRACTICES</a>
+              <a href="https://2019.igem.org/Team:Cornell/Policies">POLICIES</a>
+              <a href="https://2019.igem.org/Team:Cornell/Entrepreneurship">ENTREPRENEURSHIP</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn" onclick="location.href='http://2019.igem.org/Team:Cornell/Model'">MODELING</button>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">TOOLKIT</button>
+            <div class="dropdown-content toolkit-dropdown-content">
+              <ul>
+                <div class="nav-first-col">
+                  <li class="wet-lab-list-title"><b>WET LAB</b></li>
+                  <li><a href="http://2019.igem.org/Team:Cornell/Foundations">FOUNDATIONS</a></li>
+                  <li><a href="http://2019.igem.org/Team:Cornell/Demonstrate">DEMONSTRATE</a></li>
+                  <li><a href="http://2019.igem.org/Team:Cornell/Parts">PARTS</a></li>
+                  <li><a href="http://2019.igem.org/Team:Cornell/BasicParts">BASIC PARTS</a></li>
+                  <li><a href="http://2019.igem.org/Team:Cornell/CompositeParts">COMPOSITE PARTS</a></li>
+                </div>
+                <div class="nav-second-col">
+                  <li class="pd-list-title"><b>DESIGN</b></li>
+                  <li><a href="http://2019.igem.org/Team:Cornell/DesignProcess">DESIGN PROCESS</a></li>
+                </div>
+                <div class="nav-third-col">
+                  <li class="doc-list-title"><b>DOCUMENTATION</b></li>
+                  <li><a href="http://2019.igem.org/Team:Cornell/Notebook">NOTEBOOK</a></li>
+                  <li><a href="http://2019.igem.org/Team:Cornell/Safety">SAFETY</a></li>
+                </div>
+              </ul>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn"
+              onclick="location.href='http://2019.igem.org/Team:Cornell/Description'">ABOUT</button>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn active-page"
+              onclick="location.href='http://2019.igem.org/Team:Cornell'">HOME</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!------------------------ NAV BAR END ------------------------>
+    <!------------------------ STANDARD PAGE BANNER START ------------------------>
+    <header class="standard-page-banner">
+      <svg viewBox="0 0 100 100" width=100% height=100%>
+        <circle cx="50" cy="50" r="40" fill="white" fill-opacity="0.4" />
+        <text text-anchor="middle" alignment-baseline="middle" x=50% y=50%>Collaborations</text>
+      </svg>
+    </header>
+    <!------------------------ STANDARD PAGE BANNER END ------------------------>
+    <!------------------------ STANDARD PAGE SIDE BAR + CONTENT START ------------------------>
+    <div class="standard-page-side-bar-content-wrapper">
+      <!------------------------ STANDARD PAGE SIDE BAR START ------------------------>
+      <div class="standard-page-side-bar-wrapper">
+        <ul class="standard-page-side-bar">
+          <li><a href="#pageheading1">Overview</a></li>
+          <li><a href="#pageheading2">Harmful Algal Blooms (HABs) Informational Booklet</a></li>
+          <li><a href="#pageheading3">Mentorship</a></li>
+          <li><a href="#pageheading4">William & Mary iGEM</a></li>
+          <li><a href="#pageheading5">SZTA_Szeged_HU iGEM</a></li>
+        </ul>
+      </div>
+      <!------------------------ STANDARD PAGE SIDE BAR END ------------------------>
+      <!------------------------ STANDARD PAGE CONTENT START ------------------------>
+      <div class="standard-page-content-wrapper">
+        <div class="standard-page-content-section">
+          <div class="standard-page-content-title">
+            <div id="pageheading1">Overview</div>
+          </div>
+          <hr class="green-accent-line-left">
+          <br> <br>
+          <p class="standard-page-content-text">
+            This year, Cornell iGEM had the honor of working with several different iGEM teams across the globe on both
+            technical- and outreach-oriented collaborations. We received valuable feedback on how to improve our
+            informational booklet designed to educate members of the community on the issue of harmful algal blooms
+            (HABs). We also mentored a new high school team and helped them get up-to-speed with how the iGEM
+            competition runs. Finally, we worked with another team to optimize and test components of the Wet Lab
+            aspects of our respective projects. Through these partnerships, our team was able to expand upon the
+            possibilities of collaborative synthetic biology and learn more about how we can solve big issues using
+            microscopic tools.
+          </p>
+        </div>
+        <div class="standard-page-content-section">
+          <div class="standard-page-content-title">
+            <div id="pageheading2">Harmful Algal Blooms (HABs) Informational Booklet</div>
+          </div>
+          <hr class="green-accent-line-left">
+          <br><br>
+          <p class="standard-page-content-text">
+            Cornell iGEM sought to demystify the subject of HABs by creating an informational booklet that summarizes
+            the background, prevalence, and existing treatment methods for HABs. We sent the first draft of our booklet
+            to Ohio State iGEM and Toronto iGEM to obtain feedback on the content and formatting of our booklet to
+            ensure it is readily accessible to readers. Below, we have detailed the feedback provided to us by these
+            teams and how we incorporated their suggestions into the final draft presented on our Wiki.
+          </p>
+          <div class="standard-page-content-subheading" style="font-weight: 1000">Ohio State iGEM</div>
+          <p class="standard-page-content-text">
+            The members of the Ohio State iGEM team found our booklet very informative and well-cited. However, their
+            feedback mentioned that our booklet had too much technical detail that occasionally took away from the
+            primary focus of each section, so we cut down and made our sections more concise. We also took their advice
+            to include a brief sentence explaining the examples listed on the Current Solutions page before discussing
+            their respective pros and cons.
+          </p>
+          <div class="standard-page-content-subheading" style="font-weight: 1000">Toronto iGEM</div>
+          <p class="standard-page-content-text">
+            Toronto iGEM recommended reformatting the Current Solutions page to make it easier for readers to compare
+            between example solutions and to recognize their respective strengths and weaknesses. Going off of this
+            suggestion, our team made modifications to the Current Solutions section and also decided to include an
+            additional page recapitulating the ways in which our project covers the weak points of other solutions.
+          </p>
+          <img class="standard-page-content-image" src="">
+        </div>
+        <div class="standard-page-content-section">
+          <div class="standard-page-content-title">
+            <div id="pageheading3">Mentorship</div>
+          </div>
+          <hr class="green-accent-line-left">
+          <br><br>
+          <img class="standard-page-content-image" src="images/Meeting with Korea_HS iGEM.png"
+            style="height: 400px; width: 500px">
+          <div class="standard-page-content-subheading" style="font-weight: 1000">Korea_HS iGEM</div>
+          <p class="standard-page-content-text">
+            Over the summer, our team mentored the Korea_HS iGEM team after they reached out to us with questions about
+            the iGEM competition process. We held an initial Skype meeting on July 6th, 2019, where we shared our
+            project ideas and our experiences on iGEM. As it was Korea_HS’s first year participating in the competition,
+            we provided insight into what iGEM is and what Cornell iGEM has done as a team in the past. In regards to
+            the competition itself, Korea_HS had questions regarding the characterization section of the Bronze Medal
+            criteria and the formatting of the presentation and the poster, so we explained the characterization section
+            and provided tips on how to efficiently and effectively prepare for each portion of the competition. We had
+            a follow-up meeting on August 3rd, 2019, for an update on the team’s progress on their project and to answer
+            any remaining questions they had regarding the competition. </p>
+        </div>
+        <div class="standard-page-content-section">
+          <div class="standard-page-content-title">
+            <div id="pageheading4">William & Mary iGEM</div>
+          </div>
+          <hr class="green-accent-line-left">
+          <br><br>
+          <img class="standard-page-content-image" src="images/william_mary.jpeg" style="height: 400px; width: 300px">
+          <br>
+          <p class="standard-page-content-text">
+            On September 22nd, Cornell iGEM held a Skype meeting with the members of W&M iGEM to discuss the integration
+            of their curli fibers into our bioreactor. Since curli fibers enable biofilm development, our team sought to
+            use them to improve the efficiency of trapping our bacteria in alginate beads. After we received the DNA
+            parts from W&M iGEM, we tested whether the efficiency of our bioreactor was higher with or without the curli
+            fibers. [results?]
+            <br>
+            Our team also forwarded our alginate bead formation protocol to W&M iGEM so they could look for the
+            experimental conditions that promote optimized bacterial adhesion onto the alginate beads. [results?] </p>
+        </div>
+        <div class="standard-page-content-section">
+          <div class="standard-page-content-title">
+            <div id="pageheading5">SZTA_Szeged_HU iGEM</div>
+          </div>
+          <hr class="green-accent-line-left">
+          <br><br>
+          <p class="standard-page-content-text">
+            Cornell iGEM held a Skype call with members of SZTA_Szeged_HU iGEM on September 14th. We exchanged public
+            engagement surveys as a way to broaden the scope of our respective projects by gaining feedback from an
+            international perspective.</p>
+        </div>
+        <!------------------------ STANDARD PAGE CONTENT END ------------------------>
+      </div>
+      <!------------------------ STANDARD PAGE SIDE BAR + CONTENT END ------------------------>
+      <!------------------------ FOOTER START ------------------------>
+      <footer>
+        <div class="footer-wrapper">
+          <div class="icon-wrapper">
+            <a class="icon" href="http://facebook.com/cornelligem"><img
+                src="https://2019.igem.org/wiki/images/4/44/T--Cornell--Facebook.png"></a>
+          </div>
+          <div class="icon-wrapper">
+            <a class="icon" href="http://twitter.com/cugem"><img
+                src="https://2019.igem.org/wiki/images/8/80/T--Cornell--Twitter.png"></a>
+          </div>
+          <div class="icon-wrapper">
+            <a class="icon" href="https://www.instagram.com/cugem/"><img
+                src="https://2019.igem.org/wiki/images/3/37/T--Cornell--Instagram.png"></a>
+          </div>
+          <div class="icon-wrapper icon-wrapper-last">
+            <a class="icon" href="https://www.youtube.com/channel/UCJt-5JfyoucUJXC1EsTllhg"><img
+                src="https://2019.igem.org/wiki/images/3/3c/T--Cornell--Youtube.png"></a>
+          </div>
+        </div>
+      </footer>
+      <!------------------------ FOOTER END ------------------------>
+    </div>
+</body>
+
+</html>

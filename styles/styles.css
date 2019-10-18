@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Asap+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Raleway');
 html,
 body {
     width: 100%;
@@ -6,7 +6,6 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: 'Asap Condensed', sans-serif;
 }
 
 body {
@@ -15,14 +14,15 @@ body {
 
 p {
     color: #000;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav {
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-right: 90px;
+    padding-right: 100px;
     background-color: #a0e0bd;
-    height: 58px;
+    height: 98px;
 }
 
 .nav-bar-logo {
@@ -37,9 +37,8 @@ nav {
     width: 140px;
 }
 
-.nav-bar-main-menu button {
-    font-family: 'Asap Condensed', sans-serif;
-    font-size: 18px;
+.nav-bar-main-menu {
+    font-family: 'Raleway', sans-serif;
 }
 
 .home-banner-wrapper {
@@ -109,12 +108,17 @@ nav {
     background-color: #016c64;
     color: #ffffff;
     width: 200px;
+    font-size: 14px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
+.dropdown-content a:hover {
+    background-color: #a0e0bd !important;
+}
+
 .toolkit-dropdown-content {
-    width: 550px;
+    width: 590px;
     left: -160px;
 }
 
@@ -124,11 +128,10 @@ nav {
 
 .human-dropdown-content {
     left: 12px;
-    width: 170px;
 }
 
 .outreach-dropdown-content {
-    width: 200px;
+    width: 230px;
     left: -40px;
 }
 
@@ -140,7 +143,7 @@ nav {
 .dropdown-content a {
     color: #ffffff;
     padding: 12px 16px;
-    text-decoration: none;
+    text-decoration: none !important;
     display: block;
 }
 
@@ -164,6 +167,11 @@ nav {
 .active-page {
     color: #016c64;
     transition-duration: 0.5s;
+}
+
+.dropdown-content a:hover {
+    color: #016c64;
+    background-color: #ffffff;
 }
 
 .dropdown:hover .dropdown-content {
@@ -269,7 +277,7 @@ footer {
 }
 
 .tiles-wrapper {
-  background-color: #e1e9e7;
+    background-color: #e1e9e7;
 }
 
 .tiles-wrapper img {
@@ -310,11 +318,11 @@ footer {
 
 .overlay:hover {
     background-color: #e1e9e7;
-    opacity: .6;
+    opacity: 0.6;
 }
 
 .wrapper-space {
-  background-color: #e1e9e6;
+    background-color: #e1e9e6;
 }
 
 
@@ -388,8 +396,7 @@ footer {
 /******************** TEAM PAGE START ********************/
 
 .team-page-banner {
-    background-image: url(http://2018igem.org/wiki/images/d/d5/T--Cornell--TeamBannerPhoto.jpg);
-    background-position: 0 -200px;
+    background-color: #a0e0bd;
 }
 
 .team-page-content-area {
@@ -593,3 +600,29 @@ p.team-page-content-text {
 
 
 /******************** SPONSORS PAGE END ********************/
+
+
+/******************** ATRIBUTIONS PAGE START ********************/
+
+.attributions-page-banner {
+    background-color: #a0e0bd;
+}
+
+.attributions-body-text {
+    font-family: 'Open Sans', serif;
+    font-size: 16px;
+    color: #000;
+}
+
+
+/******************** ATTRIBUTIONS PAGE END ********************/
+
+
+/******************** ENTREPRENEURSHIP PAGE START ********************/
+
+.entrepreneurship-page-banner {
+    background-color: #a0e0bd;
+}
+
+
+/******************** ENTREPRENEURSHIP PAGE END ********************/

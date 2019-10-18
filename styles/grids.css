@@ -17,8 +17,8 @@ nav {
 }
 
 .nav-bar-logo {
-  width: 180px;
-  padding-top: 12px;
+    width: 180px;
+    padding-top: 12px;
 }
 
 .nav-bar-main-menu .dropdown:nth-child(5) .dropdown-contentx {
@@ -26,74 +26,60 @@ nav {
     grid-template-columns: auto auto auto;
 }
 
-.nav-first-col {
-    display: inline-grid;
-}
+display: inline-grid;
 
+}
 .nav-second-col {
     display: inline-grid;
 }
-
 .nav-third-col {
     display: inline-grid;
 }
-
 .home-description-wrapper {
     display: grid;
     grid-area: homedescription;
     grid-template-columns: 150px auto 150px;
     grid-template-areas: '. homedescriptionlogo .' '. homedescription .';
 }
-
 .home-description-logo-wrapper {
     grid-area: homedescriptionlogo;
 }
-
 .home-description {
     grid-area: homedescription;
 }
-
 footer {
     grid-area: footer;
 }
-
 .tiles-wrapper {
     display: grid;
     grid-area: tiles;
     grid-template-columns: 150px repeat(3, 1fr) 150px;
     grid-gap: 10px;
 }
-
 .wet-lab-tile {
     grid-column: 2;
     grid-row: 1;
 }
-
 .pd-tile {
     grid-column: 3;
     grid-row: 1;
 }
-
 .pp-tile {
     grid-column: 4;
     grid-row: 1;
 }
-
 .outreach-tile {
     grid-column: 2;
     grid-row: 2;
 }
-
 .bus-tile {
     grid-column: 3;
     grid-row: 2;
 }
-
 .team-tile {
     grid-column: 4;
     grid-row: 2;
 }
-
 @media only screen and (max-width: 1100px) {
     .tiles-wrapper {
         display: grid;
@@ -101,146 +87,146 @@ footer {
         grid-template-columns: 150px auto 150px;
         grid-gap: 10px;
     }
+    
     .wet-lab-tile {
         grid-column: 2;
         grid-row: 1;
     }
+    
     .pd-tile {
         grid-column: 2;
         grid-row: 2;
     }
+    
     .pp-tile {
         grid-column: 2;
         grid-row: 3;
     }
+    
     .outreach-tile {
         grid-column: 2;
         grid-row: 4;
     }
+    
     .bus-tile {
         grid-column: 2;
         grid-row: 5;
     }
+    
     .team-tile {
         grid-column: 2;
         grid-row: 6;
     }
 }
 
-
 /******************** HOME PAGE END ********************/
 
-
 /******************** STANDARD PAGE START ********************/
-
 .standard-page-wrapper {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 100px 550px auto 100px;
     grid-template-areas: 'navbar' 'standardpagebanner' 'standardpagesidebarcontent' 'footer';
 }
-
 .standard-page-banner {
     grid-area: standardpagebanner;
 }
-
 .standard-page-side-bar-content-wrapper {
     display: inline-grid;
     grid-area: standardpagesidebarcontent;
     grid-template-columns: 7.5% 20% 65% 7.5%;
     grid-template-areas: '. standardpagesidebar standardpagecontent .';
 }
-
 .standard-page-side-bar-wrapper {
     grid-area: standardpagesidebar;
 }
-
 .standard-page-content-wrapper {
     grid-area: standardpagecontent;
 }
 
-
 /******************** STANDARD PAGE END ********************/
 
-
 /******************** ABOUT PAGE START ********************/
-
 .about-page-wrapper {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 100px 550px auto 100px;
     grid-template-areas: 'navbar' 'standardpagebanner' 'safetypagecontent' 'footer';
 }
-
 .about-page-content-wrapper {
     display: inline-grid;
     grid-area: safetypagecontent;
 }
 
-
 /******************** ABOUT PAGE END ********************/
 
-
 /******************** TEAM PAGE START ********************/
-
 .team-page-wrapper {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 100px 550px auto 100px;
-    grid-template-areas: 'navbar' 'standardpagebanner' 'teampagecontent' 'footer';
+    grid-template-areas: 'navbar' 'teampagebanner' 'teampagecontent' 'footer';
 }
-
 .team-page-content-area {
     grid-area: teampagecontent;
 }
-
+.team-page-banner {
+    grid-area: teampagebanner;
+}
 
 /******************** TEAM PAGE END ********************/
 
-
 /******************** NOTEBOOK PAGE START ********************/
-
 .notebook-page-wrapper {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 100px 550px auto 100px;
     grid-template-areas: 'navbar' 'notebookpagebanner' 'notebookpagecontent' 'footer';
 }
-
 .notebook-page-content-wrapper {
     display: inline-grid;
     grid-area: notebookpagecontent;
 }
-
 .notebook-page-banner {
     grid-area: notebookpagebanner;
 }
 
-
 /******************** NOTEBOOK PAGE END ********************/
 
-
 /******************** SPONSORS PAGE START ********************/
-
 .sponsors-page-wrapper {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 100px 550px auto 100px;
     grid-template-areas: 'navbar' 'standardpagebanner' 'sponsorspagecontent' 'footer';
 }
-
 .sponsors-page-content-wrapper {
     display: grid;
     grid-area: sponsorspagecontent;
     grid-template-columns: 150px auto 150px;
     grid-template-areas: '. sponsorcontent .';
 }
-
 .sponsors-content-wrapper {
     display: grid;
     grid-area: sponsorcontent;
     grid-template-columns: 40% 60%;
 }
 
-
 /******************** SPONSORS PAGE END ********************/
+
+/******************** ATTRIBUTIONS PAGE START ********************/
+.attributions-page-wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px 550px auto 100px;
+    grid-template-areas: 'navbar' 'attributionspagebanner' 'attributionspagecontent' 'footer';
+}
+.attributions-page-banner {
+    grid-area: attributionspagebanner;
+}
+.attributions-page-content-wrapper {
+    display: inline-grid;
+    grid-area: attributionspagecontent;
+}
+
+/******************** ATTRIBUTIONS PAGE END ********************/

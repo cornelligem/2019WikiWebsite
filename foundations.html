@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+        /* hides "Team:Cornell" and iGEM logo */
+        #top_title {
+            display: none;
+        }
+
+        /* removes padding below footer */
+        #globalWrapper {
+            padding: 0;
+        }
+
+        #content {
+            padding: 0px;
+            width: 100% !important;
+            margin-top: 0px;
+            margin-left: 0px ;
+        }
+
+        /* removes default styling for home banner tagline */
+        #HQ_page p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 100;
+            color: #000;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        /* removes small extra margin at very bottom below footer */
+        p {
+            margin: 0;
+        }
+
+        /* removes bullets from Toolkit dropdown menu */
+        ul {
+            list-style-image: none;
+        }
+
+    </style>
+    <title>Team:Cornell - 2019.igem.org</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/grids.css">
+    <!-- JS -->
+    <script src="http://2019.igem.org/Team:Cornell/jquerymin?action=raw&ctype=text/javascript"></script>
+</head>
+<!--NOTE: REMEMBER TO CHANCE active-page CLASS TO CORRECT DROPDOWN-->
+<body>
+    <div class ="standard-page-wrapper">
+        <!------------------------ NAV BAR START ------------------------>
+        <nav>
+            <div class="nav-bar-wrapper">
+                <div class="nav-bar-logo">
+                        <a href="http://2019.igem.org/Team:Cornell"><img src="images/logo.png" alt="reHAB"></a>
+                </div>
+                <div class="nav-bar-main-menu">
+                    <div class="dropdown">
+                        <button class="dropbtn">TEAM</button>
+                        <div class="dropdown-content team-dropdown-content">
+                            <a href="http://2019.igem.org/Team:Cornell/Team">BIOS</a>
+                            <a href="http://2019.igem.org/Team:Cornell/Sponsors">SPONSORS</a>
+                            <a href="http://2019.igem.org/Team:Cornell/Attributions">ATTRIBUTIONS</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">OUTREACH</button>
+                        <div class="dropdown-content outreach-dropdown-content">
+                            <a href="https://2019.igem.org/Team:Cornell/Public_Engagement">EDUCATION & ENGAGEMENT</a>
+                            <a href="https://2019.igem.org/Team:Cornell/Collaborations">COLLABORATIONS</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">HUMAN PRACTICES</button>
+                        <div class="dropdown-content human-dropdown-content">
+                            <a href="https://2019.igem.org/Team:Cornell/Human_Practices">INTEGRATED PRACTICES</a>
+                            <a href="https://2019.igem.org/Team:Cornell/Policies">POLICIES</a>
+                            <a href="https://2019.igem.org/Team:Cornell/Entrepreneurship">ENTREPRENEURSHIP</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn"
+                            onclick="location.href='http://2019.igem.org/Team:Cornell/Model'">MODELING</button>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">TOOLKIT</button>
+                        <div class="dropdown-content toolkit-dropdown-content">
+                            <ul>
+                                <div class="nav-first-col">
+                                    <li class="wet-lab-list-title"><b>WET LAB</b></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Foundations">FOUNDATIONS</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Demonstrate">DEMONSTRATE</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Parts">PARTS</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/BasicParts">BASIC PARTS</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/CompositeParts">COMPOSITE PARTS</a></li>
+                                </div>
+                                <div class="nav-second-col">
+                                    <li class="pd-list-title"><b>DESIGN</b></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/DesignProcess">DESIGN PROCESS</a></li>
+                                </div>
+                                <div class="nav-third-col">
+                                    <li class="doc-list-title"><b>DOCUMENTATION</b></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Notebook">NOTEBOOK</a></li>
+                                    <li><a href="http://2019.igem.org/Team:Cornell/Safety">SAFETY</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn"
+                            onclick="location.href='http://2019.igem.org/Team:Cornell/Description'">ABOUT</button>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn active-page"
+                            onclick="location.href='http://2019.igem.org/Team:Cornell'">HOME</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!------------------------ NAV BAR END ------------------------>
+        <!------------------------ STANDARD PAGE BANNER START ------------------------>
+        <header class="standard-page-banner">
+            <svg viewBox="0 0 100 100" width=100% height=100%>
+                <circle cx="50" cy="50" r="40" fill="white" fill-opacity="0.4"/>
+                <text text-anchor="middle" alignment-baseline="middle" x=50% y=50%>Foundations</text>
+            </svg>
+        </header>
+        <!------------------------ STANDARD PAGE BANNER END ------------------------>
+        <!------------------------ STANDARD PAGE SIDE BAR + CONTENT START ------------------------>
+        <div class="standard-page-side-bar-content-wrapper">
+            <!------------------------ STANDARD PAGE SIDE BAR START ------------------------>
+            <div class="standard-page-side-bar-wrapper">
+                <ul class="standard-page-side-bar">
+                    <li><a href="#pageheading1">Problem Statement</a></li>
+                    <li><a href="#pageheading2">System Overview/Components</a></li>
+                    <li><a href="#pageheading3">References</a></li>
+                </ul>
+            </div>
+            <!------------------------ STANDARD PAGE SIDE BAR END ------------------------>
+            <!------------------------ STANDARD PAGE CONTENT START ------------------------>
+            <div class="standard-page-content-wrapper">
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading1">Problem Statement</div></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-subheading"></div>
+                    <p class="standard-page-content-text">
+                        Excess nutrients, especially those that result from fertilizer runoff, can cause rapid growth
+                         of algae and cyanobacteria - a condition called an algal bloom. Thriving in both saltwater and
+                          freshwater, algal blooms have been reported on the shores of every coastal state and in 
+                          countless lakes in the US alone. They are considered a major environmental threat in all 50 
+                          states. Recently, algal blooms have received notable media attention due to the severe devastation 
+                          they have caused. They damage the economy by decreasing tourism and fishing in coastal communities 
+                          and by hurting the business of industries that depend on clean water [3]. Additionally, when these 
+                          blooms decompose, they deplete oxygen in the water, killing marine life, which may cause severe 
+                          damage to the local ecosystem. 
+                    </p>
+                    <p class="standard-page-content-text">
+                        Harmful algal blooms, or HABs, are a subset of blooms which also produce toxins that are detrimental 
+                        to human and animal health. One class of these toxins -- microcystins -- cannot be sufficiently 
+                        broken down in the liver of many organisms, including humans, domesticated animals, and fish. Humans 
+                        and animals have gotten sick and even died from swimming in or consuming water containing microcystins. 
+                        Additionally, although algal blooms have short lifespans, microcystins remain in water systems for much 
+                        longer periods of time, in which they may continue to contaminate local aquatic ecosystems as well as 
+                        drinking and irrigation water.
+                    </p>
+                    <p class="standard-page-content-text">
+                        Microcystin-LR, or MC-LR, is considered to be the most common and most toxic of microcystins [1]. Upon 
+                        entering the liver, it inhibits two protein phosphatases, PP1 and PP2A. These proteins dephosphorylate 
+                        other proteins, a common step in many biochemical reactions [2]. By inhibiting PP1 and PP2A, the toxin 
+                        causes a build up of phosphorylated proteins, which prevents these essential biological reactions from 
+                        occurring. This results in extensive damage to the liver, which, in extreme cases, may lead to kidney 
+                        and lung damage and even heart failure.
+                    </p>
+                    <p class="standard-page-content-text">
+                        Furthermore, it is impossible to distinguish between harmful and non-harmful blooms by sight alone. 
+                        Extensive lab testing is required to detect the presence of toxins, and there are few protocols in place 
+                        to remove these toxins from water.
+                    </p>
+                    <p class="standard-page-content-text">
+                        Clearly, there is a pressing need for more rapid detection and remediation of MC-LR in both recreational 
+                        and drinking water. To this end, we have developed a rapid colorimetric aptamer based detection system 
+                        and - improving upon the work of several past iGEM teams - engineered a series of E. coli strains which 
+                        progressively degrade MC-LR. We further encapsulated our strains in alginate beads in order to maximize 
+                        reaction efficiency within our bioreactor, HABLab.
+                    </p>
+                </div>
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading2">System Overview/Components</div></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-subheading"></div>
+                    <p class="standard-page-content-text">
+                        Our project this year aims to design and implement a bacterial solution for harmful algal blooms. 
+                        Our proposed system consists of two components: a biological sensor to detect the presence of 
+                        microcystins in water, and a filter containing engineered bacteria to degrade the microcystins 
+                        (specifically microcystin-LR, the most common of these toxins). 
+                    </p>
+                    <p class="standard-page-content-text">
+                        The biological sensor consists of a DNA aptamer conjugated to gold nanoparticles, which specifically 
+                        binds microcystin-LR. Binding of the aptamer to microcystin results in a colorimetric change. The 
+                        color change can be quantified and related to the microcystin concentration via a standard curve. 
+                    </p>
+                    <p class="standard-page-content-text">
+                        Second, to engineer the bacteria for our filter, we have introduced genetic constructs coding for a 
+                        specific cassette of enzymes. These enzymes, which are endogenous to Sphingopyxis sp., have been 
+                        shown to sequentially break down microcystins. The enzymes are named mlrA through mlrF. MlrA, B, 
+                        and C are proteases that degrade MC-LR. MlrD is a transporter protein that carries MC-LR into the 
+                        cell. The functions of mlrE and F are yet to be elucidated, but both are believed to assist with 
+                        MC-LR degradation. The filter consists of a packed-bed bioreactor, in which water is passed through 
+                        a chamber containing our engineered strain immobilized on alginate beads. Additionally, we have 
+                        attached a tag from the bacterial twin arginine translocase pathway to target the enzymes to the 
+                        bacterial periplasm. Our hope is that moving the enzymes close to the periphery of the bacterial 
+                        cell, and therefore closer to the flow of contaminated water, will increase the efficiency of the 
+                        reaction. We hope these improvements will maximize our system’s potential for environmental 
+                        remediation.
+                    </p>
+                </div>
+                <div class="standard-page-content-section">
+                    <div class="standard-page-content-title"><div id="pageheading3">References</div></div>
+                    <hr class="green-accent-line-left">
+                    <div class="standard-page-content-subheading">Problem Statement</div>
+                    <p class="standard-page-content-text">
+                        [1] Wikipedia contributors. (2019, July 21). Microcystin-LR. In Wikipedia, The Free Encyclopedia. Retrieved 21:38, October 18, 2019, from https://en.wikipedia.org/w/index.php?title=Microcystin-LR&oldid=907208202.<br>
+                        [2] Guidelines for Drinking-Water Quality, 2nd ed. Addendum to Vol. 2. Health criteria and other supporting information. World Health Organization, Geneva, 1998. <br>
+                        [3] Harmful Algal Blooms. (2019, July 17). Retrieved from https://www.epa.gov/nutrientpollution/harmful-algal-blooms.
+                    </p>
+                    <img class="standard-page-content-image" src="">
+                </div>
+            </div>
+            <!------------------------ STANDARD PAGE CONTENT END ------------------------>
+        </div>
+        <!------------------------ STANDARD PAGE SIDE BAR + CONTENT END ------------------------>
+        <!------------------------ FOOTER START ------------------------>
+        <footer>
+            <div class="footer-wrapper">
+                <div class="icon-wrapper">
+                    <a class="icon" href="http://facebook.com/cornelligem"><img src="https://2019.igem.org/wiki/images/4/44/T--Cornell--Facebook.png"></a>
+                </div>
+                <div class="icon-wrapper">
+                    <a class="icon" href="http://twitter.com/cugem"><img src="https://2019.igem.org/wiki/images/8/80/T--Cornell--Twitter.png"></a>
+                </div>
+                <div class="icon-wrapper">
+                    <a class="icon" href="https://www.instagram.com/cugem/"><img src="https://2019.igem.org/wiki/images/3/37/T--Cornell--Instagram.png"></a>
+                </div>
+                <div class="icon-wrapper icon-wrapper-last">
+                    <a class="icon" href="https://www.youtube.com/channel/UCJt-5JfyoucUJXC1EsTllhg"><img src="https://2019.igem.org/wiki/images/3/3c/T--Cornell--Youtube.png"></a>
+                </div>
+            </div>
+        </footer>
+        <!------------------------ FOOTER END ------------------------>
+    </div>
+</body>
+
+</html>

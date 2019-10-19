@@ -414,6 +414,23 @@ footer {
     fill: black;
     font-size: 14px;
 }
+
+.pd-banner-box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 175px;
+  width: 35%;
+  height: 25%;
+  font-size: 64px;
+  background-color: rgba(235, 239, 238, 0.6);
+}
+
+.pd-banner-box p {
+  text-align: center;
+  line-height: 125px;
+  color: #000000;
+}
+
 /******************** PD PAGE END ********************/
 
 /******************** TEAM PAGE START ********************/

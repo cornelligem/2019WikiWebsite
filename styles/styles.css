@@ -1,11 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:400,700|Raleway');
-
 /******************** ALL FONTS START ********************/
-/* @font-face {
-    font-family: 'Futura';
-    src: url('../futura/Futura\ Light\ font.ttf');
-} */
-
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:400,700|Raleway');
 @font-face {
     font-family: 'Futura';
     src: url('../futura/futura\ medium\ bt.ttf');
@@ -19,11 +13,11 @@ body {
     font-size: 16px;
 }
 
-.tile-title {
+.standard-page-banner > svg > text, .standard-page-content-title, .standard-page-side-bar-wrapper {
     font-family: 'Futura', sans-serif;
 }
 
-.standard-page-banner > svg > text, .standard-page-content-title, .standard-page-side-bar-wrapper {
+.tile-title {
     font-family: 'Futura', sans-serif;
 }
 
@@ -381,7 +375,7 @@ footer {
     padding-left: 15px;
     padding-right: 15px;
     vertical-align: middle;
-    margin: 0;
+    margin-top: 40px;
 }
 
 .standard-page-side-bar>li {

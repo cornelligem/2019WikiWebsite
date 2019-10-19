@@ -1,4 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Raleway');
+/******************** ALL FONTS START ********************/
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:400,700|Raleway');
+@font-face {
+    font-family: 'Futura';
+    src: url('../futura/futura\ medium\ bt.ttf');
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dropbtn, .dropdown-content {
+    font-size: 16px;
+}
+
+.standard-page-banner > svg > text, .standard-page-content-title, .standard-page-side-bar-wrapper {
+    font-family: 'Futura', sans-serif;
+}
+
+.tile-title {
+    font-family: 'Futura', sans-serif;
+}
+
+/******************** ALL FONTS END ********************/
+
 html,
 body {
     width: 100%;
@@ -14,12 +38,12 @@ body {
 
 p {
     color: #000;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
 }
 
 nav {
     padding-top: 30px;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     padding-right: 100px;
     background-color: #a0e0bd;
     height: 98px;
@@ -30,15 +54,11 @@ nav {
     display: inline-block;
     float: left;
     margin-left: 80px;
-    margin-top: -5px;
+    margin-top: 10px;
 }
 
 .nav-bar-logo img {
     width: 140px;
-}
-
-.nav-bar-main-menu {
-    font-family: 'Raleway', sans-serif;
 }
 
 .home-banner-wrapper {
@@ -54,9 +74,9 @@ nav {
     position: absolute;
     left: 75px;
     bottom: 55px;
-    z-index: 1;
+    /* z-index: 1;
     background-color: rgba(160, 224, 189, 0.5);
-    box-shadow: 10px -10px 50px 10px rgba(160, 224, 189, 0.75);
+    box-shadow: 10px -10px 50px 10px rgba(160, 224, 189, 0.75); */
 }
 
 .home-banner-plants {
@@ -73,7 +93,6 @@ nav {
     text-decoration: none;
     padding: 15px;
     margin: 0px;
-    font-size: 15px;
     border: none;
     color: #fff;
 }
@@ -89,10 +108,13 @@ nav {
     vertical-align: top;
     display: inline-block;
     float: right;
+    margin-top: 10px;
 }
 
 .dropdown ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
 }
 
 .dropdown a {
@@ -108,7 +130,6 @@ nav {
     background-color: #016c64;
     color: #ffffff;
     width: 200px;
-    font-size: 14px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
@@ -292,7 +313,7 @@ footer {
 }
 
 .tile-title {
-    font-family: 'Asap Condensed', sans-serif;
+    /* font-family: 'Asap Condensed', sans-serif; */
     font-size: 30px;
     color: rgb(30, 30, 30);
     text-align: center;
@@ -345,7 +366,6 @@ footer {
 .standard-page-side-bar>li>a {
     text-decoration: none;
     color: #016c64;
-    font-weight: bold;
     font-size: 16px;
 }
 
@@ -354,7 +374,7 @@ footer {
     padding-left: 15px;
     padding-right: 15px;
     vertical-align: middle;
-    margin: 0;
+    margin-top: 40px;
 }
 
 .standard-page-side-bar>li {
@@ -363,7 +383,6 @@ footer {
 
 .standard-page-content-title {
     font-size: 24px;
-    font-weight: 700;
     color: #000 !important;
     position: relative;
 }
@@ -593,7 +612,7 @@ p.team-page-content-text {
 
 .sponsor-description {
     display: table-cell;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     vertical-align: middle;
     font-size: 16px;
 }
@@ -609,7 +628,7 @@ p.team-page-content-text {
 }
 
 .attributions-body-text {
-    font-family: 'Open Sans', serif;
+    /* font-family: 'Open Sans', serif; */
     font-size: 16px;
     color: #000;
 }

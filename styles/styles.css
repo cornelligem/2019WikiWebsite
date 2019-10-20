@@ -170,8 +170,7 @@ nav {
 }
 
 .dropdown-content a:hover {
-    color: #016c64;
-    background-color: #ffffff;
+    background-color: #a0e0bd !important;
 }
 
 .dropdown:hover .dropdown-content {
@@ -329,68 +328,68 @@ footer {
 /******************** HOME PAGE END ********************/
 
 
-/******************** STANDARD PAGE START ********************/
+    /******************** STANDARD PAGE START ********************/
 
-.standard-page-banner {
-    background-image: url(https://2019igem.org/wiki/images/6/63/T--Cornell--TeamPic.png);
-    background-size: cover;
-    fill: black;
-    font-size: 14px;
-}
+    .standard-page-banner {
+        background-image: url(https://2019igem.org/wiki/images/6/63/T--Cornell--TeamPic.png);
+        background-size: cover;
+        fill: black;
+        font-size: 14px;
+    }
 
-.standard-page-side-bar-content-wrapper {
-    padding: 5% 0;
-}
+    .standard-page-side-bar-content-wrapper {
+        padding: 5% 0;
+    }
 
-.standard-page-side-bar>li>a {
-    text-decoration: none;
-    color: #016c64;
-    font-weight: bold;
-    font-size: 16px;
-}
+    .standard-page-side-bar>li>a {
+        text-decoration: none;
+        color: #016c64;
+        font-weight: bold;
+        font-size: 16px;
+    }
 
-.standard-page-side-bar {
-    list-style-type: none;
-    padding-left: 15px;
-    padding-right: 15px;
-    vertical-align: middle;
-    margin: 0;
-}
+    .standard-page-side-bar {
+        list-style-type: none;
+        padding-left: 15px;
+        padding-right: 15px;
+        vertical-align: middle;
+        margin: 0;
+    }
 
-.standard-page-side-bar>li {
-    margin-bottom: 15px;
-}
+    .standard-page-side-bar>li {
+        margin-bottom: 15px;
+    }
 
-.standard-page-content-title {
-    font-size: 24px;
-    font-weight: 700;
-    color: #000 !important;
-    position: relative;
-}
+    .standard-page-content-title {
+        font-size: 24px;
+        font-weight: 700;
+        color: #000 !important;
+        position: relative;
+    }
 
-.green-accent-line-left {
-    border: #a0e0bd solid 1px;
-    display: block;
-    float: left;
-    margin: 1em auto 1em auto;
-    width: 80px;
-}
+    .green-accent-line-left {
+        border: #a0e0bd solid 1px;
+        display: block;
+        float: left;
+        margin: 1em auto 1em auto;
+        width: 80px;
+    }
 
-.standard-page-content-subheading {
-    font-size: 18px;
-    font-weight: 1;
-    color: #000;
-    padding-top: 40px;
-    padding-bottom: 0;
-}
+    .standard-page-content-subheading {
+        font-size: 18px;
+        font-weight: 1;
+        color: #000;
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
 
-.standard-page-content-section {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
+    .standard-page-content-section {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
 
 
-/******************** STANDARD PAGE END ********************/
+    /******************** STANDARD PAGE END ********************/
 
 
 /******************** TEAM PAGE START ********************/
@@ -618,11 +617,73 @@ p.team-page-content-text {
 /******************** ATTRIBUTIONS PAGE END ********************/
 
 
-/******************** ENTREPRENEURSHIP PAGE START ********************/
+/******************** SAFETY PAGE START ********************/
 
-.entrepreneurship-page-banner {
+.safety-page-banner {
     background-color: #a0e0bd;
 }
 
+.safety-page-content-wrapper {
+    padding-bottom: 5%;
+}
 
-/******************** ENTREPRENEURSHIP PAGE END ********************/
+.safety-content-wrapper {
+    padding-right: 100px;
+    padding-left: 90px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.safety-header-text {
+    font-size: 24pt;
+    text-align: center;
+    color: #000;
+}
+
+.safety-text-wrapper {
+    padding-top: 20px;
+}
+
+.safety-body-text {
+    color: #000;
+    margin-top: 20px;
+}
+
+
+/******************** SAFETY PAGE END ********************/
+
+
+/******************** PARTS PAGE START ********************/
+
+    .parts-page-banner {
+        background-color: #a0e0bd;
+    }
+
+    .parts-page-content-wrapper {
+        padding-bottom: 5%;
+    }
+
+    .parts-content-wrapper {
+        padding-right: 100px;
+        padding-left: 90px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .parts-header-text {
+        font-size: 24pt;
+        text-align: center;
+        color: #000;
+    }
+
+    .parts-text-wrapper {
+        padding-top: 20px;
+    }
+
+    .parts-body-text {
+        color: #000;
+        margin-top: 20px;
+    }
+
+
+/******************** PARTS PAGE END ********************/
